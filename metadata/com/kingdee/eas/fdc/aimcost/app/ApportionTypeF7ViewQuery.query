@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>ApportionTypeF7ViewQuery</name>
+    <alias>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK />
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>ApportionType</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].subObjects.subEntity[ApportionType].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="ApportionType" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>targetType</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].subObjects.subEntity[targetType].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="TargetType" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>e4c10205-bfca-4061-b2e6-8446b8288325</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.propertyUnit[e4c10205-bfca-4061-b2e6-8446b8288325].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>cc2c063e-8a69-450d-aee7-a27984bd84a5</key>
+                    <parentUnit>
+                        <key name="name" value="e4c10205-bfca-4061-b2e6-8446b8288325" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ApportionType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="targetType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3e4a394a-6cbc-4ab9-a35c-dd24f6ca2ba7</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.propertyUnit[3e4a394a-6cbc-4ab9-a35c-dd24f6ca2ba7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>a09a52de-7ded-4605-bd1a-3b020f28cee0</key>
+                    <parentUnit>
+                        <key name="name" value="3e4a394a-6cbc-4ab9-a35c-dd24f6ca2ba7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="targetType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9117407c-5efa-4d13-a545-43e4bae01548</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ApportionType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>801c1887-9963-485c-8265-234d24996608</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ApportionType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isEnabled</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[isEnabled].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7bb144bd-d670-4993-9168-3deffd4fab8d</key>
+                    <parentUnit>
+                        <key name="name" value="isEnabled" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="ApportionType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isEnabled" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>targetType.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[targetType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5be18362-6496-48b9-bb05-18e1f4fbb908</key>
+                    <parentUnit>
+                        <key name="name" value="targetType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="targetType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+            <key name="name" value="ApportionTypeF7ViewQuery" />
+        </query>
+    </defaultFilter>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>dcba88f9-1ba1-4dd4-b6e5-b6078d0de381</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="ApportionType" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="targetType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>259542bf-b6ad-4f42-80d3-ac89b37cf959</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="e4c10205-bfca-4061-b2e6-8446b8288325" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3e4a394a-6cbc-4ab9-a35c-dd24f6ca2ba7" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="dcba88f9-1ba1-4dd4-b6e5-b6078d0de381" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="ApportionTypeF7ViewQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].subObjects.subEntity[ApportionType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].subObjects.subEntity[targetType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.propertyUnit[3e4a394a-6cbc-4ab9-a35c-dd24f6ca2ba7].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.propertyUnit[e4c10205-bfca-4061-b2e6-8446b8288325].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[isEnabled].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.aimcost.app.ApportionTypeF7ViewQuery].units.queryField[targetType.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+    </resource>
+</joinQuery>
+

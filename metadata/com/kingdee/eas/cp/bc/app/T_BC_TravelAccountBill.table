@@ -1,0 +1,1881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.cp.bc.app</package>
+    <name>T_BC_TravelAccountBill</name>
+    <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].alias</alias>
+    <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK>com.kingdee.eas.cp.bc.TravelAccountBill</bizUnitPK>
+    <columns>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreatorID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FControlUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBizDate</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FHandlerID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHandlerID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHandlerID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FDescription].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>1000</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FHasEffected</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHasEffected].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHasEffected].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FAuditorID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditorID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSourceBillID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FSourceFunction</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceFunction].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceFunction].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FApplierID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPositionID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPositionID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPositionID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FTel</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FTel].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FTel].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>50</length>
+            <scale>0</scale>
+            <precision>50</precision>
+        </column>
+        <column>
+            <name>FOrgUnitID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOrgUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOrgUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBizReqDate</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizReqDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizReqDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCause</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCause].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCause].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>400</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPrior</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPrior].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPrior].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>30</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FState</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FState].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FState].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>10</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FAuditDate</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FBillDate</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBillerID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillerID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillerID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBillTypeCode</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillTypeCode].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillTypeCode].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>110</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCostedDeptID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCostedDeptID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCostedDeptID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCompanyID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCompanyID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCompanyID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSupportedObjID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSupportedObjID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSupportedObjID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCurrencyID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCurrencyID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCurrencyID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FExpenseTypeID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FExpenseTypeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FExpenseTypeID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAmount</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FBudgetAmount</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FBudgetBalance</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetBalance].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetBalance].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAmountSendedBack</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountSendedBack].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountSendedBack].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAmountApproved</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountApproved].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountApproved].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAmountStriked</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountStriked].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountStriked].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAmountEncashed</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountEncashed].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountEncashed].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAmountRefunded</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountRefunded].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountRefunded].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAccountCreditedID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountCreditedID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountCreditedID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAccountDebitedID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountDebitedID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountDebitedID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPayMent</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPayMent].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPayMent].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAccessoryCount</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccessoryCount].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccessoryCount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAmountCopy</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountCopy].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountCopy].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.00</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FFiVouchered</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FFiVouchered].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FFiVouchered].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAmountBalance</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountBalance].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountBalance].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAmountUsed</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountUsed].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountUsed].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAmountControlType</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountControlType].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountControlType].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>10</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FApplierCompanyID</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierCompanyID].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierCompanyID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FOperationTypeId</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOperationTypeId].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOperationTypeId].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FbudgetDo</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FbudgetDo].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FbudgetDo].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0.0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>0</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FSourceBillType</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillType].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillType].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FActionFlag</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FActionFlag].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FActionFlag].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>20</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFBankNo</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFBankNo].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFBankNo].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPayUnitName</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFPayUnitName].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFPayUnitName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFAccountNo</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFAccountNo].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFAccountNo].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFLeadPerson</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFLeadPerson].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFLeadPerson].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFOutAppBillNo</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFOutAppBillNo].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFOutAppBillNo].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>50</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFIsEducate</name>
+            <alias>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFIsEducate].alias</alias>
+            <description>dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFIsEducate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_BC_TravelAcc</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>FK_BC_TA_User_Crt</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_User_Upd</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_CtrlUnit</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCtrl" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_User_Hd</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FHandlerID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_User_Aud</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FAuditorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_Person_Ap</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.person" />
+                <key name="name" value="T_BD_Person" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FApplierID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_Posit_Po</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Position" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FPositionID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_Admin</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartAdmin" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FOrgUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_User_Bill</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FBillerID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_CostCente</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCostCenter" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCostedDeptID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_Company</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartFI" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCompanyID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_CostObj</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_CostObject" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FSupportedObjID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_Currency</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_Currency" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCurrencyID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_AccV_ET</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.master.account" />
+                <key name="name" value="T_BD_AccountView" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FExpenseTypeID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_AccV_AC</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.master.account" />
+                <key name="name" value="T_BD_AccountView" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FAccountCreditedID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_BC_TA_AccV_AD</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.master.account" />
+                <key name="name" value="T_BD_AccountView" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FAccountDebitedID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].alias">
+            <lang locale="zh_CN" value="差旅费报销单 " />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="差旅費報銷單 " />
+            <lang locale="zh_TW" value="差旅費報銷單 " />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFAccountNo].alias">
+            <lang locale="zh_CN" value="帐号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="帳號" />
+            <lang locale="zh_TW" value="帳號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFAccountNo].description">
+            <lang locale="zh_CN" value="帐号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="帳號" />
+            <lang locale="zh_TW" value="帳號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFBankNo].alias">
+            <lang locale="zh_CN" value="开户银行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="開戶銀行" />
+            <lang locale="zh_TW" value="開戶銀行" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFBankNo].description">
+            <lang locale="zh_CN" value="开户银行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="開戶銀行" />
+            <lang locale="zh_TW" value="開戶銀行" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFIsEducate].alias">
+            <lang locale="zh_CN" value="是否培训" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否培訓" />
+            <lang locale="zh_TW" value="是否培訓" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFIsEducate].description">
+            <lang locale="zh_CN" value="是否培训" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否培訓" />
+            <lang locale="zh_TW" value="是否培訓" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFLeadPerson].alias">
+            <lang locale="zh_CN" value="领款人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="領款人" />
+            <lang locale="zh_TW" value="領款人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFLeadPerson].description">
+            <lang locale="zh_CN" value="领款人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="領款人" />
+            <lang locale="zh_TW" value="領款人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFOutAppBillNo].alias">
+            <lang locale="zh_CN" value="出差申请单号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="出差申請單號" />
+            <lang locale="zh_TW" value="出差申請單號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFOutAppBillNo].description">
+            <lang locale="zh_CN" value="出差申请单号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="出差申請單號" />
+            <lang locale="zh_TW" value="出差申請單號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFPayUnitName].alias">
+            <lang locale="zh_CN" value="付款单位全称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位全稱" />
+            <lang locale="zh_TW" value="付款單位全稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[CFPayUnitName].description">
+            <lang locale="zh_CN" value="付款单位全称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位全稱" />
+            <lang locale="zh_TW" value="付款單位全稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccessoryCount].alias">
+            <lang locale="zh_CN" value="附件数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件數" />
+            <lang locale="zh_TW" value="附件數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccessoryCount].description">
+            <lang locale="zh_CN" value="附件数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件數" />
+            <lang locale="zh_TW" value="附件數" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountCreditedID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountCreditedID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountDebitedID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAccountDebitedID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FActionFlag].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FActionFlag].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountApproved].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountApproved].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountBalance].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountBalance].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountControlType].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountControlType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountCopy].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountCopy].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountEncashed].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountEncashed].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountRefunded].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountRefunded].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountSendedBack].alias">
+            <lang locale="zh_CN" value="还款金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="還款金額" />
+            <lang locale="zh_TW" value="還款金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountSendedBack].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountStriked].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountStriked].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountUsed].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmountUsed].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmount].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAmount].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierCompanyID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierCompanyID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FApplierID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditDate].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditDate].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditorID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FAuditorID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillDate].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillDate].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillTypeCode].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillTypeCode].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillerID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBillerID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizDate].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizDate].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizReqDate].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBizReqDate].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetAmount].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetAmount].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetBalance].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FBudgetBalance].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCause].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCause].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCompanyID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCompanyID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FControlUnitID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FControlUnitID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCostedDeptID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCostedDeptID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreateTime].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreateTime].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreatorID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCreatorID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCurrencyID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FCurrencyID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FDescription].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FDescription].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FExpenseTypeID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FExpenseTypeID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FFiVouchered].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FFiVouchered].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHandlerID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHandlerID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHasEffected].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FHasEffected].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateTime].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateTime].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateUserID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FLastUpdateUserID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FName].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FName].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FNumber].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FNumber].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOperationTypeId].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOperationTypeId].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOrgUnitID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FOrgUnitID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPayMent].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPayMent].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPositionID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPositionID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPrior].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FPrior].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceBillType].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceFunction].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSourceFunction].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FState].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FState].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSupportedObjID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FSupportedObjID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FTel].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FTel].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FbudgetDo].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].columns.column[FbudgetDo].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.cp.bc.app.T_BC_TravelAccountBill].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

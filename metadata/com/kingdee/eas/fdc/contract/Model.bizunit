@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.contract</package>
+    <name>Model</name>
+    <alias>bizUnit[com.kingdee.eas.fdc.contract.Model].alias</alias>
+    <description>bizUnit[com.kingdee.eas.fdc.contract.Model].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.fdc.contract.app.Model</entityPK>
+    <queryPK>com.kingdee.eas.fdc.contract.app.ModelQuery</queryPK>
+    <editUIPK>com.kingdee.eas.fdc.contract.client.ModelEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.fdc.contract.client.ModelListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.fdc.contract.app.T_CON_ModelTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.fdc.contract.app.ModelTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.fdc.contract.client.ModelTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.fdc.contract.Model].alias">
+            <lang locale="zh_CN" value="模板" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="範本" />
+            <lang locale="zh_TW" value="範本" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.contract.Model].description">
+            <lang locale="zh_CN" value="用于存放OA提供的模板" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="用於存放OA提供的範本" />
+            <lang locale="zh_TW" value="用於存放OA提供的範本" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.contract.Model].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.contract.Model].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

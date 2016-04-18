@@ -1,0 +1,3176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.cp.bc.app</package>
+    <name>TravelAccountQuery</name>
+    <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.cp.bc.TravelAccountBill</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>TravelAccountBill</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[TravelAccountBill].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBill" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>orgUnit</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[orgUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>applier</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[applier].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.person.app" />
+                <key name="name" value="Person" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>company</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[company].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>currencyType</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[currencyType].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Currency" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>CU</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[CU].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>payMode</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[payMode].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="SettlementType" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>operationType</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[operationType].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="OperationType" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>applierCompany</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[applierCompany].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>costedDept</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[costedDept].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CostCenterOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>supportedObj</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[supportedObj].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="CostObject" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUni32</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni32].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni32" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="currencyType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni33</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni33].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni33" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currencyType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amount</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="amount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currencyType.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[currencyType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="currencyType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currencyType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>applier.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="applier.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applier" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>orgUnit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="orgUnit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizReqDate</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[bizReqDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizReqDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizReqDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>billTypeCode</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[billTypeCode].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="billTypeCode" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="billTypeCode" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>state</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[state].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="state" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="state" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>company.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[company.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="company.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>CU.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[CU.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="CU.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currencyType.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[currencyType.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="currencyType.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currencyType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>company.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[company.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="company.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>applier.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="applier.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applier" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>applier.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="applier.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applier" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>orgUnit.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="orgUnit.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>orgUnit.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="orgUnit.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountSendedBack</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountSendedBack].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="amountSendedBack" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountSendedBack" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>budgetAmount</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[budgetAmount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="budgetAmount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="budgetAmount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountApproved</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountApproved].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="amountApproved" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountApproved" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>company.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[company.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="company.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>sourceBillId</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[sourceBillId].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="sourceBillId" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sourceBillId" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="operationType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="operationType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>auditDate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>operationType.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[operationType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="operationType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="operationType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>payMode.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[payMode.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="payMode.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="payMode" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cause</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[cause].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="cause" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cause" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>costedDept.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[costedDept.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="costedDept.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="costedDept" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>applierCompany.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applierCompany.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="applierCompany.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applierCompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUni11</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni11].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni11" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="applierCompany" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUni10</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni10].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUni10" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applierCompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>196f7935-0113-1000-e000-02dec0a80e9d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[196f7935-0113-1000-e000-02dec0a80e9d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>196f7935-0113-1000-e000-02e0c0a80e9d</key>
+                    <parentUnit>
+                        <key name="name" value="196f7935-0113-1000-e000-02dec0a80e9d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="payMode" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>196f7935-0113-1000-e000-02dfc0a80e9d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[196f7935-0113-1000-e000-02dfc0a80e9d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="196f7935-0113-1000-e000-02dfc0a80e9d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="payMode" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-25dcc0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-25dcc0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-25dcc0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="orgUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-25ddc0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-25ddc0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-25ddc0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-267dc0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-267dc0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-267dc0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="applier" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-267ec0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-267ec0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-267ec0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applier" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-2730c0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-2730c0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-2730c0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="company" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-2731c0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-2731c0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-2731c0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-27d1c0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-27d1c0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-27d1c0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="costedDept" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b48379fd-0114-1000-e000-27d2c0a813bb</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-27d2c0a813bb].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="b48379fd-0114-1000-e000-27d2c0a813bb" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="costedDept" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>applierCompany.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applierCompany.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8561b2f5-0117-1000-e000-00bbc0a813bd</key>
+                    <parentUnit>
+                        <key name="name" value="applierCompany.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applierCompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>actionFlag</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[actionFlag].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0d2e2530-7dd8-482e-9aa6-a60d2ab912ae</key>
+                    <parentUnit>
+                        <key name="name" value="actionFlag" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="actionFlag" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>1e7926df-ac16-4074-8162-891b5334abef</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[1e7926df-ac16-4074-8162-891b5334abef].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f9abc4b8-76ea-485c-9c16-82efd2caad31</key>
+                    <parentUnit>
+                        <key name="name" value="1e7926df-ac16-4074-8162-891b5334abef" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="supportedObj" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>8cbb6612-e1b9-458d-b4b8-27c1d231e09d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[8cbb6612-e1b9-458d-b4b8-27c1d231e09d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>15b4418d-2c62-40ac-9836-d5f090e823e4</key>
+                    <parentUnit>
+                        <key name="name" value="8cbb6612-e1b9-458d-b4b8-27c1d231e09d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="supportedObj" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>BankNo</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[BankNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>54935419-84eb-41f5-954e-4e9fe851db4c</key>
+                    <parentUnit>
+                        <key name="name" value="BankNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="BankNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PayUnitName</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[PayUnitName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>02ddc24a-f990-485a-aae2-c5263bebb0c2</key>
+                    <parentUnit>
+                        <key name="name" value="PayUnitName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="PayUnitName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>AccountNo</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[AccountNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a021c768-d8e0-4233-8b01-2b9af537aa18</key>
+                    <parentUnit>
+                        <key name="name" value="AccountNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="AccountNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>LeadPerson</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[LeadPerson].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>be2b4404-a405-4dd8-8007-d43f7003306c</key>
+                    <parentUnit>
+                        <key name="name" value="LeadPerson" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="LeadPerson" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>outAppBillNo</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[outAppBillNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d5f8ab57-54cd-48f7-952b-1748c121fc4d</key>
+                    <parentUnit>
+                        <key name="name" value="outAppBillNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="outAppBillNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isEducate</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[isEducate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>42d176a5-0754-4957-8455-c72b63812e62</key>
+                    <parentUnit>
+                        <key name="name" value="isEducate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isEducate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.cp.bc.app" />
+            <key name="name" value="TravelAccountQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>lastUpdateTime</propertyName>
+            <sortType>DESC</sortType>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>true</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin6</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="orgUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b48379fd-0114-1000-e000-25dcc0a813bb" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b48379fd-0114-1000-e000-25ddc0a813bb" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin6" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin8</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="applier" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b48379fd-0114-1000-e000-267dc0a813bb" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b48379fd-0114-1000-e000-267ec0a813bb" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin8" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoi14</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="company" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b48379fd-0114-1000-e000-2730c0a813bb" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b48379fd-0114-1000-e000-2731c0a813bb" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoi14" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoi16</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="currencyType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni32" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni33" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoi16" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="CU" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit1" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit0" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit5" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit4" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="payMode" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="196f7935-0113-1000-e000-02dec0a80e9d" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="196f7935-0113-1000-e000-02dfc0a80e9d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin3</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="operationType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin3" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="applierCompany" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUni11" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUni10" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin5</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="costedDept" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b48379fd-0114-1000-e000-27d1c0a813bb" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b48379fd-0114-1000-e000-27d2c0a813bb" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin5" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+        <join>
+            <name>f683e3e1-2233-452d-a2c6-0a87bf13b35d</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="supportedObj" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>3c89c328-e2ac-48d6-85b6-cbc37a7b9bfb</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="1e7926df-ac16-4074-8162-891b5334abef" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="8cbb6612-e1b9-458d-b4b8-27c1d231e09d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="f683e3e1-2233-452d-a2c6-0a87bf13b35d" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].alias">
+            <lang locale="zh_CN" value="出差报销查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="出差報銷查詢" />
+            <lang locale="zh_TW" value="出差報銷查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="差旅费报销单" />
+            <lang locale="zh_TW" value="差旅费报销单" />
+            <lang locale="en_US" value="差旅费报销单" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].extendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="差旅费报销单" />
+            <lang locale="zh_TW" value="差旅费报销单" />
+            <lang locale="en_US" value="差旅费报销单" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].queryPK[QueryPK].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].queryPK[QueryPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[CU].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[TravelAccountBill].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[applierCompany].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[applier].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[company].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[costedDept].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[currencyType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[operationType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[orgUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[payMode].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].subObjects.subEntity[supportedObj].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[196f7935-0113-1000-e000-02dec0a80e9d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[196f7935-0113-1000-e000-02dfc0a80e9d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[1e7926df-ac16-4074-8162-891b5334abef].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[8cbb6612-e1b9-458d-b4b8-27c1d231e09d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni10].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni11].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni32].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUni33].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-25dcc0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-25ddc0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-267dc0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-267ec0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-2730c0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-2731c0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-27d1c0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.propertyUnit[b48379fd-0114-1000-e000-27d2c0a813bb].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[AccountNo].displayName">
+            <lang locale="zh_CN" value="帐号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="帳號" />
+            <lang locale="zh_TW" value="帳號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[AccountNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[AccountNo].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[BankNo].displayName">
+            <lang locale="zh_CN" value="开户银行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="開戶銀行" />
+            <lang locale="zh_TW" value="開戶銀行" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[BankNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[BankNo].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[CU.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[LeadPerson].displayName">
+            <lang locale="zh_CN" value="领款人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="領款人" />
+            <lang locale="zh_TW" value="領款人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[LeadPerson].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[LeadPerson].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[PayUnitName].displayName">
+            <lang locale="zh_CN" value="付款单位全称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位全稱" />
+            <lang locale="zh_TW" value="付款單位全稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[PayUnitName].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[PayUnitName].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[actionFlag].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountApproved].displayName">
+            <lang locale="zh_CN" value="核定报销金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="核定報銷金額" />
+            <lang locale="zh_TW" value="核定報銷金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountApproved].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountApproved].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountSendedBack].displayName">
+            <lang locale="zh_CN" value="还款金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="還款金額" />
+            <lang locale="zh_TW" value="還款金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountSendedBack].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amountSendedBack].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amount].displayName">
+            <lang locale="zh_CN" value="申请金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請金額" />
+            <lang locale="zh_TW" value="申請金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amount].extendedProperty.displayFormat">
+            <lang locale="zh_CN" value="%r-[=]{#,##0.00}n" />
+            <lang locale="zh_TW" value="%r-[=]{#,##0.00}n" />
+            <lang locale="en_US" value="%r-[=]{#,##0.00}n" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amount].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[amount].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.name].displayName">
+            <lang locale="zh_CN" value="申请人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請人" />
+            <lang locale="zh_TW" value="申請人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applier.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applierCompany.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applierCompany.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applierCompany.name].displayName">
+            <lang locale="zh_CN" value="申请人公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請人公司" />
+            <lang locale="zh_TW" value="申請人公司" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applierCompany.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[applierCompany.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditDate].displayName">
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditor.name].displayName">
+            <lang locale="zh_CN" value="评审人" />
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_HK" value="評審人" />
+            <lang locale="zh_TW" value="評審人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditor.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[auditor.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[billTypeCode].displayName">
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據類型" />
+            <lang locale="zh_TW" value="單據類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[bizReqDate].displayName">
+            <lang locale="zh_CN" value="申请时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請時間" />
+            <lang locale="zh_TW" value="申請時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[bizReqDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[bizReqDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[budgetAmount].displayName">
+            <lang locale="zh_CN" value="预支金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="預支金額" />
+            <lang locale="zh_TW" value="預支金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[budgetAmount].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[budgetAmount].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[cause].displayName">
+            <lang locale="zh_CN" value="事由" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="事由" />
+            <lang locale="zh_TW" value="事由" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[cause].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[cause].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[company.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[company.name].displayName">
+            <lang locale="zh_CN" value="费用承担公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="費用承擔公司" />
+            <lang locale="zh_TW" value="費用承擔公司" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[company.number].displayName">
+            <lang locale="zh_CN" value="公司编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="公司編碼" />
+            <lang locale="zh_TW" value="公司編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[costedDept.name].displayName">
+            <lang locale="zh_CN" value="费用支付部门" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="費用支付部門" />
+            <lang locale="zh_TW" value="費用支付部門" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[costedDept.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[costedDept.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[currencyType.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[currencyType.name].displayName">
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[currencyType.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[currencyType.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[description].displayName">
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[isEducate].displayName">
+            <lang locale="zh_CN" value="是否培训" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否培訓" />
+            <lang locale="zh_TW" value="是否培訓" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[name].displayName">
+            <lang locale="zh_CN" value="表单名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="表單名稱" />
+            <lang locale="zh_TW" value="表單名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[operationType.name].displayName">
+            <lang locale="zh_CN" value="业务类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務類別" />
+            <lang locale="zh_TW" value="業務類別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.name].displayName">
+            <lang locale="zh_CN" value="申请部门" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請部門" />
+            <lang locale="zh_TW" value="申請部門" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.number].displayName">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[orgUnit.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[outAppBillNo].displayName">
+            <lang locale="zh_CN" value="出差申请单号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="出差申請單號" />
+            <lang locale="zh_TW" value="出差申請單號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[payMode.name].displayName">
+            <lang locale="zh_CN" value="支付方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="支付方式" />
+            <lang locale="zh_TW" value="支付方式" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[payMode.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[payMode.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[sourceBillId].displayName">
+            <lang locale="zh_CN" value="原始单据ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="原始單據ID" />
+            <lang locale="zh_TW" value="原始單據ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[state].displayName">
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[state].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountQuery].units.queryField[state].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

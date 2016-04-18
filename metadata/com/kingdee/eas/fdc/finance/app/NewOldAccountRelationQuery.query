@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance.app</package>
+    <name>NewOldAccountRelationQuery</name>
+    <alias>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK />
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>NewOldAccountRelation</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].subObjects.subEntity[NewOldAccountRelation].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelation" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>newAccount</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].subObjects.subEntity[newAccount].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.account.app" />
+                <key name="name" value="AccountView" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>oldCostAccount</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].subObjects.subEntity[oldCostAccount].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="CostAccount" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>939e1abe-e309-4a9d-be2b-377d17c07249</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[939e1abe-e309-4a9d-be2b-377d17c07249].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a657da4d-3d51-4ad1-99bb-b4360afc0e06</key>
+                    <parentUnit>
+                        <key name="name" value="939e1abe-e309-4a9d-be2b-377d17c07249" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="NewOldAccountRelation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="newAccount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b8b6f61c-f83f-4f23-bda6-ccdb79700962</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[b8b6f61c-f83f-4f23-bda6-ccdb79700962].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>73c4f33f-3bc0-4f6c-a2ca-47b265709344</key>
+                    <parentUnit>
+                        <key name="name" value="b8b6f61c-f83f-4f23-bda6-ccdb79700962" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="newAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>seq</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1eec5c6f-32e2-473d-8321-50fa30aea49d</key>
+                    <parentUnit>
+                        <key name="name" value="seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="NewOldAccountRelation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>remark</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[remark].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>48029551-dbd6-47f2-832e-b7ee2ff7b14a</key>
+                    <parentUnit>
+                        <key name="name" value="remark" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="NewOldAccountRelation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="remark" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>340189d7-c892-4d33-85f1-a35d8de8dc19</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="NewOldAccountRelation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>newAccount.longName</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.longName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5c2f83be-f327-4682-9fb0-d8e89f48c4ac</key>
+                    <parentUnit>
+                        <key name="name" value="newAccount.longName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="newAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="longName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>newAccount.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b2def6dd-7eb3-48e9-9e6c-3867dfe42dd9</key>
+                    <parentUnit>
+                        <key name="name" value="newAccount.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="newAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>newAccount.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b4ddb264-57de-46b9-8964-db6ccf6a2aff</key>
+                    <parentUnit>
+                        <key name="name" value="newAccount.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="newAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>newAccount.longNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.longNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>040e71f4-f291-41bd-ba7d-c141e189d931</key>
+                    <parentUnit>
+                        <key name="name" value="newAccount.longNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="newAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="longNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>newAccount.id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2af2a966-63b1-484d-a10b-32e4c6d937f1</key>
+                    <parentUnit>
+                        <key name="name" value="newAccount.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="newAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>36b2fcc9-95f2-44c0-95a4-b4dc20196eb1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[36b2fcc9-95f2-44c0-95a4-b4dc20196eb1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>30aaa49d-1027-40c5-b0ac-8e71996314ba</key>
+                    <parentUnit>
+                        <key name="name" value="36b2fcc9-95f2-44c0-95a4-b4dc20196eb1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="NewOldAccountRelation" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="oldCostAccount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>9732a933-b387-415f-b89a-40b7bd5343f5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[9732a933-b387-415f-b89a-40b7bd5343f5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b4f7ce93-9a0e-4141-a15c-b34b496775c3</key>
+                    <parentUnit>
+                        <key name="name" value="9732a933-b387-415f-b89a-40b7bd5343f5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="oldCostAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>oldCostAccount.codingNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.codingNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>740e25ea-e8a7-487f-9b95-bcd8d42276e3</key>
+                    <parentUnit>
+                        <key name="name" value="oldCostAccount.codingNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="oldCostAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="codingNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>oldCostAccount.longNumber</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.longNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>90b43bbc-810e-436f-b52d-065bb659c3ff</key>
+                    <parentUnit>
+                        <key name="name" value="oldCostAccount.longNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="oldCostAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="longNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>oldCostAccount.displayName</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.displayName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>60be23a0-6747-4026-9343-38e82761d05a</key>
+                    <parentUnit>
+                        <key name="name" value="oldCostAccount.displayName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="oldCostAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="displayName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>oldCostAccount.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1633fdd5-64ee-4040-964d-ba35a80a7a1b</key>
+                    <parentUnit>
+                        <key name="name" value="oldCostAccount.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="oldCostAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>oldCostAccount.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1d175ba1-1828-4c99-8d75-37860f91078c</key>
+                    <parentUnit>
+                        <key name="name" value="oldCostAccount.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="oldCostAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+            <key name="name" value="NewOldAccountRelationQuery" />
+        </query>
+    </defaultFilter>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>7a7b2de1-1ce1-4f85-81ba-0888d1d54a2b</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="NewOldAccountRelation" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="newAccount" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>ce65cddb-1c6d-4244-bac4-6b8ce20ae720</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="939e1abe-e309-4a9d-be2b-377d17c07249" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b8b6f61c-f83f-4f23-bda6-ccdb79700962" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="7a7b2de1-1ce1-4f85-81ba-0888d1d54a2b" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>e7d5f0d4-41e7-4475-8a57-6868a8c4fd8e</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="NewOldAccountRelation" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="oldCostAccount" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>b9f2e616-2d42-4911-8605-002e0157a914</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="36b2fcc9-95f2-44c0-95a4-b4dc20196eb1" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="9732a933-b387-415f-b89a-40b7bd5343f5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="e7d5f0d4-41e7-4475-8a57-6868a8c4fd8e" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+                <key name="name" value="NewOldAccountRelationQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新旧账套科目映射关系表查询" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新旧账套科目映射关系表查询" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].subObjects.subEntity[NewOldAccountRelation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].subObjects.subEntity[newAccount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].subObjects.subEntity[oldCostAccount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[36b2fcc9-95f2-44c0-95a4-b4dc20196eb1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[939e1abe-e309-4a9d-be2b-377d17c07249].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[9732a933-b387-415f-b89a-40b7bd5343f5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.propertyUnit[b8b6f61c-f83f-4f23-bda6-ccdb79700962].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新帐套科目ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.longName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新帐套科目长名称" />
+            <lang locale="zh_TW" value="長名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.longNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="长编码" />
+            <lang locale="zh_TW" value="長編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新帐套科目名称" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[newAccount.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新帐套科目编码" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.codingNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本科目编码" />
+            <lang locale="zh_TW" value="成本科目編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.displayName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本科目显示名称" />
+            <lang locale="zh_TW" value="顯示名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.longNumber].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本科目长编码" />
+            <lang locale="zh_TW" value="長編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本科目名称" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[oldCostAccount.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[remark].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.finance.app.NewOldAccountRelationQuery].units.queryField[seq].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="序号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</joinQuery>
+

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.contract.app</package>
+    <name>WriteBackBillStatusFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>4F313C7E</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.contract.WriteBackBillStatusFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>alterAttachmentByID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].description</description>
+            <innerID>8cbcd54e-4249-4fc9-8bb9-43f10582b2e7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>fid</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fid].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fid].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>fileName</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fileName].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fileName].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>file</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[file].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[file].description</description>
+                    <direction>in</direction>
+                    <dataType>ByteArray</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>modBillInfo</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].description</description>
+            <innerID>c0fd59a0-95c3-444e-bd68-32546d02c0d1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>billType</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billType].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billType].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>billId</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billId].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>state</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[state].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[state].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>isExistAttachment</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[isExistAttachment].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[isExistAttachment].description</description>
+                    <direction>in</direction>
+                    <dataType>Boolean</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>attachmentInfoList</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[attachmentInfoList].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[attachmentInfoList].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectCollection</dataType>
+                    <metadataRef>com.kingdee.eas.base.attachment.app.Attachment</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAttachment</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].description</description>
+            <innerID>5360ef5e-112a-4db7-b6c4-cc0f4420c1fd</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ByteArray</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>id</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].parameters.parameter[id].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].parameters.parameter[id].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getBillState</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].description</description>
+            <innerID>3944ad2d-cd75-48b7-ad18-ac9d994d7e48</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>id</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].parameters.parameter[id].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].parameters.parameter[id].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>createPayBill</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].description</description>
+            <innerID>19aa62ac-d1bd-4ffc-9c3c-c366e0fd0ec8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>billId</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].parameters.parameter[billId].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].parameters.parameter[billId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="回写单据状态" />
+            <lang locale="zh_TW" value="回寫單據狀態" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="oa回写eas单据状态" />
+            <lang locale="zh_TW" value="oa回寫eas單據狀態" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="根据附件id修改附件" />
+            <lang locale="zh_TW" value="根據附件id修改附件" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="oa跟附件id反写附件" />
+            <lang locale="zh_TW" value="oa跟附件id反寫附件" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件id" />
+            <lang locale="zh_TW" value="附件id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fid].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件id" />
+            <lang locale="zh_TW" value="附件id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fileName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件名称" />
+            <lang locale="zh_TW" value="附件名稱" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[fileName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件名称" />
+            <lang locale="zh_TW" value="附件名稱" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[file].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件内容" />
+            <lang locale="zh_TW" value="附件內容" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[alterAttachmentByID].parameters.parameter[file].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件内容，字节流" />
+            <lang locale="zh_TW" value="附件內容，字節流" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="生成付款单" />
+            <lang locale="zh_TW" value="生成付款單" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="测试生成付款单" />
+            <lang locale="zh_TW" value="測試生成付款單" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].parameters.parameter[billId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据id" />
+            <lang locale="zh_TW" value="單據id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[createPayBill].parameters.parameter[billId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取附件" />
+            <lang locale="zh_TW" value="獲取附件" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取附件" />
+            <lang locale="zh_TW" value="獲取附件" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].parameters.parameter[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件id" />
+            <lang locale="zh_TW" value="附件id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getAttachment].parameters.parameter[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取单据的状态" />
+            <lang locale="zh_TW" value="獲取單據的狀態" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取单据的状态" />
+            <lang locale="zh_TW" value="獲取單據的狀態" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].parameters.parameter[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据id" />
+            <lang locale="zh_TW" value="單據id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[getBillState].parameters.parameter[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据id" />
+            <lang locale="zh_TW" value="單據id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改单据信息" />
+            <lang locale="zh_TW" value="修改單據信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="oa回写eas单据信息" />
+            <lang locale="zh_TW" value="oa回寫eas單據信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[attachmentInfoList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="附件数组" />
+            <lang locale="zh_TW" value="附件數組" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[attachmentInfoList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据id" />
+            <lang locale="zh_TW" value="單據id" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="zh_TW" value="單據類型" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[billType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据类型,如：“1”代表合同附件类型；“2”代表付款申请单类型；“3”代表结算单类型；“4”代表变更签证确认单类型；“5”代表无文本合同类型" />
+            <lang locale="zh_TW" value="單據類型,如：“1”代表合同附件類型；“2”代表付款申請單類型；“3”代表結算單類型；“4”代表變更簽證確認單類型；“5”代表無文本合同類型" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[isExistAttachment].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否存在附件" />
+            <lang locale="zh_TW" value="是否存在附件" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[isExistAttachment].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[state].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.WriteBackBillStatusFacade].methods.method[modBillInfo].parameters.parameter[state].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

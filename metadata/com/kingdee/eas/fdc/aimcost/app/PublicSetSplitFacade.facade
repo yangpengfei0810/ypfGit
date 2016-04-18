@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>PublicSetSplitFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>254E0132</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.aimcost.PublicSetSplitFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getPublicSetSplitColums</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].description</description>
+            <innerID>5f34b4f4-e8e4-4a9f-bef3-a0a4be150958</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.jdbc.rowset.IRowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>curProjectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].parameters.parameter[curProjectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].parameters.parameter[curProjectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>initDBTable</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].description</description>
+            <innerID>fc8d64b7-338d-479d-aadb-0dd0fefe443a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getRowData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].description</description>
+            <innerID>535d74d1-8cc5-4c74-bf46-075ac7735a53</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.jdbc.rowset.IRowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>curProjectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].parameters.parameter[curProjectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].parameters.parameter[curProjectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getPublicRow</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].description</description>
+            <innerID>eeb7f210-7af5-438c-8f87-12f6df1d5d2e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.jdbc.rowset.IRowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>curProjectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].parameters.parameter[curProjectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].parameters.parameter[curProjectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].alias">
+            <lang locale="zh_CN" value="公共配套已发生分摊功能" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="公共配套已發生分攤功能" />
+            <lang locale="zh_TW" value="公共配套已發生分攤功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].description">
+            <lang locale="zh_CN" value="公共配套已发生分摊功能" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="公共配套已發生分攤功能" />
+            <lang locale="zh_TW" value="公共配套已發生分攤功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].extendedProperty.controllerBeanEx">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacadeControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacadeControllerBeanEx" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacadeControllerBeanEx" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].alias">
+            <lang locale="zh_CN" value="获取公共配套（产品类型）" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取公共配套（產品類型）" />
+            <lang locale="zh_TW" value="獲取公共配套（產品類型）" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].parameters.parameter[curProjectID].alias">
+            <lang locale="zh_CN" value="当前工程项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前工程項目ID" />
+            <lang locale="zh_TW" value="當前工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicRow].parameters.parameter[curProjectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].alias">
+            <lang locale="zh_CN" value="获取报表界面的列" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取報表介面的列" />
+            <lang locale="zh_TW" value="獲取報表介面的列" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].parameters.parameter[curProjectID].alias">
+            <lang locale="zh_CN" value="工程ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程ID" />
+            <lang locale="zh_TW" value="工程ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getPublicSetSplitColums].parameters.parameter[curProjectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].alias">
+            <lang locale="zh_CN" value="获取行数据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取行數據" />
+            <lang locale="zh_TW" value="獲取行數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].parameters.parameter[curProjectID].alias">
+            <lang locale="zh_CN" value="项目工程ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目工程ID" />
+            <lang locale="zh_TW" value="項目工程ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[getRowData].parameters.parameter[curProjectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].alias">
+            <lang locale="zh_CN" value="清空数据表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="清空數據表" />
+            <lang locale="zh_TW" value="清空數據表" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="项目工程ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目工程ID" />
+            <lang locale="zh_TW" value="項目工程ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.PublicSetSplitFacade].methods.method[initDBTable].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</facade>
+

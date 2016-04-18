@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permission xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.wslog</package>
+    <name>logAuth</name>
+    <alias>permission[com.kingdee.eas.fdc.wslog.logAuth].alias</alias>
+    <description>permission[com.kingdee.eas.fdc.wslog.logAuth].description</description>
+    <userDefined>true</userDefined>
+    <permissionItems>
+        <permissionItem>
+            <innerID>c453f4ee-6be7-4fc3-906a-584e717addb0PERMITEM</innerID>
+            <name>testAuth</name>
+            <alias>permission[com.kingdee.eas.fdc.wslog.logAuth].permissionItems.permissionItem[testAuth].alias</alias>
+            <description>permission[com.kingdee.eas.fdc.wslog.logAuth].permissionItems.permissionItem[testAuth].description</description>
+            <type>OTHER</type>
+            <groupName />
+            <group>permission[com.kingdee.eas.fdc.wslog.logAuth].permissionItems.permissionItem[testAuth].group</group>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <entityType>FCF80554</entityType>
+                <userDefined>true</userDefined>
+                <metadataRef>
+                    <package>com.kingdee.eas.fdc.wslog</package>
+                    <name>WSLog</name>
+                    <bosType>enty</bosType>
+                </metadataRef>
+            </entityObjectRef>
+            <bizRefs>
+                <bizRef>
+                    <id>cfb3e01a-d4bb-4423-a7ee-be54dd3015a5</id>
+                    <userDefined>true</userDefined>
+                    <metadataRef>
+                        <package>com.kingdee.eas.fdc.wslog</package>
+                        <name>WebServiceTestUI</name>
+                        <bosType>uioj</bosType>
+                    </metadataRef>
+                    <bizPropertys>
+                        <bizProperty>
+                            <property>ActionSearch</property>
+                            <userDefined>true</userDefined>
+                        </bizProperty>
+                    </bizPropertys>
+                </bizRef>
+            </bizRefs>
+        </permissionItem>
+    </permissionItems>
+    <dependences>
+        <dependence>
+            <id>c453f4ee-6be7-4fc3-906a-584e717addb0PERMITEM</id>
+            <referedItem>
+                <key name="innerID" value="c453f4ee-6be7-4fc3-906a-584e717addb0PERMITEM" />
+            </referedItem>
+        </dependence>
+    </dependences>
+    <resource>
+        <rs key="permission[com.kingdee.eas.fdc.wslog.logAuth].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="日志权限" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="permission[com.kingdee.eas.fdc.wslog.logAuth].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="permission[com.kingdee.eas.fdc.wslog.logAuth].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="permission[com.kingdee.eas.fdc.wslog.logAuth].permissionItems.permissionItem[testAuth].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="测试权限" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="permission[com.kingdee.eas.fdc.wslog.logAuth].permissionItems.permissionItem[testAuth].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="permission[com.kingdee.eas.fdc.wslog.logAuth].permissionItems.permissionItem[testAuth].extendedProperty.permItemType">
+            <lang locale="en_US" value="20" />
+            <lang locale="zh_CN" value="20" />
+            <lang locale="zh_TW" value="20" />
+        </rs>
+        <rs key="permission[com.kingdee.eas.fdc.wslog.logAuth].permissionItems.permissionItem[testAuth].group">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</permission>
+

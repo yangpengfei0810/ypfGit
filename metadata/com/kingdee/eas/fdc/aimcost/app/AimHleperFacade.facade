@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>AimHleperFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>561F8904</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.aimcost.AimHleperFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.aimcost.app.AimHleperFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getApportionIndex</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].description</description>
+            <innerID>e3b9fedb-c9ff-4efa-b4ff-7530541103a7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getParam</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].description</description>
+            <innerID>2466c16b-1037-48c0-bbc0-eb111d7033e9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.lang.Object</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>id</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].parameters.parameter[id].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].parameters.parameter[id].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本帮助类" />
+            <lang locale="zh_TW" value="成本幫助類" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].extendedProperty.controllerBeanEx">
+            <lang locale="en_US" value="com.kingdee.eas.fdc.aimcost.app.AimHleperFacadeControllerBeanEx" />
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.aimcost.app.AimHleperFacadeControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.aimcost.app.AimHleperFacadeControllerBeanEx" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取面积指标管理中的动态指标" />
+            <lang locale="zh_TW" value="獲取面積指標管理中的動態指標" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].parameters.parameter[projectID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getApportionIndex].parameters.parameter[projectID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取报销单" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取报销单" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].parameters.parameter[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.AimHleperFacade].methods.method[getParam].parameters.parameter[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

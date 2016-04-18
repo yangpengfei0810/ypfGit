@@ -1,0 +1,3927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.cp.bc.app</package>
+    <name>TravelAccountBillForR1PrintQuery</name>
+    <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK />
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>TravelAccountBill</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[TravelAccountBill].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBill" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>applier</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[applier].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.person.app" />
+                <key name="name" value="Person" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>company</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[company].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>CU</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[CU].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>costedDept</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[costedDept].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CostCenterOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>accountDebited</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[accountDebited].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.account.app" />
+                <key name="name" value="AccountView" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>accountCredited</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[accountCredited].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.account.app" />
+                <key name="name" value="AccountView" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>position</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[position].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="Position" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>currencyType</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[currencyType].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Currency" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>supportedObj</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[supportedObj].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="CostObject" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>orgUnit</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[orgUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>biller</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[biller].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>applierCompany</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[applierCompany].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>payMode</name>
+            <alias>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[payMode].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="SettlementType" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>9467df57-7538-4c8d-8076-ef2af3dec691</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[9467df57-7538-4c8d-8076-ef2af3dec691].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8046ac4f-1bdd-4a04-b20c-5718340dffd1</key>
+                    <parentUnit>
+                        <key name="name" value="9467df57-7538-4c8d-8076-ef2af3dec691" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="applier" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a6124010-9d3e-4995-beed-4ad1b30bcbc6</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[a6124010-9d3e-4995-beed-4ad1b30bcbc6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>4d8c347c-1edf-4fd5-87d2-fec99c34d742</key>
+                    <parentUnit>
+                        <key name="name" value="a6124010-9d3e-4995-beed-4ad1b30bcbc6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applier" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f1894a5a-b8cb-4f6b-9f41-7cc79f151071</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[f1894a5a-b8cb-4f6b-9f41-7cc79f151071].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>1d65dfde-c714-4f02-8a33-b639aa8412d8</key>
+                    <parentUnit>
+                        <key name="name" value="f1894a5a-b8cb-4f6b-9f41-7cc79f151071" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="company" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>dc27d353-fc6f-48af-ae37-1aac6e34b842</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[dc27d353-fc6f-48af-ae37-1aac6e34b842].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>60f7925f-ba9d-4657-b03d-c54755b6e17e</key>
+                    <parentUnit>
+                        <key name="name" value="dc27d353-fc6f-48af-ae37-1aac6e34b842" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>8e357fca-decf-4681-9bda-fa5fb3d5bc26</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[8e357fca-decf-4681-9bda-fa5fb3d5bc26].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>5c9fd640-4443-4d81-8998-bbd67781bc9a</key>
+                    <parentUnit>
+                        <key name="name" value="8e357fca-decf-4681-9bda-fa5fb3d5bc26" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>59ceddbf-0efc-414d-8a2c-fd1566a1d1fc</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[59ceddbf-0efc-414d-8a2c-fd1566a1d1fc].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>fc5c7621-0a37-45db-9e4e-ac7088fb6abe</key>
+                    <parentUnit>
+                        <key name="name" value="59ceddbf-0efc-414d-8a2c-fd1566a1d1fc" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>1358aba8-a696-47af-b6f5-1d8fdff034c3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[1358aba8-a696-47af-b6f5-1d8fdff034c3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>d26ed9d3-2929-4468-abf7-70262d4c659b</key>
+                    <parentUnit>
+                        <key name="name" value="1358aba8-a696-47af-b6f5-1d8fdff034c3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="costedDept" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f9fc760d-774a-4d99-8ffb-2eda9720d951</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[f9fc760d-774a-4d99-8ffb-2eda9720d951].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b2ceb752-22fa-47a2-8b96-74b0be7bf5b8</key>
+                    <parentUnit>
+                        <key name="name" value="f9fc760d-774a-4d99-8ffb-2eda9720d951" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="costedDept" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b45e611b-25cf-49c1-965b-50727620bf4e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[b45e611b-25cf-49c1-965b-50727620bf4e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>660f2d63-e9e8-4691-82af-0712719624c6</key>
+                    <parentUnit>
+                        <key name="name" value="b45e611b-25cf-49c1-965b-50727620bf4e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>fc06bad0-9aaf-41af-8cc9-e392f90ec8a3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[fc06bad0-9aaf-41af-8cc9-e392f90ec8a3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>8c35b77a-a618-43ad-b8bc-55635c405ec8</key>
+                    <parentUnit>
+                        <key name="name" value="fc06bad0-9aaf-41af-8cc9-e392f90ec8a3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>cec16a15-27e6-448f-8ab5-5d1aa7d3bfc5</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[cec16a15-27e6-448f-8ab5-5d1aa7d3bfc5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>3f6044dc-6a6c-48c5-b937-8724c39b81bb</key>
+                    <parentUnit>
+                        <key name="name" value="cec16a15-27e6-448f-8ab5-5d1aa7d3bfc5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="position" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>0c5e4fe8-0ada-4cdc-afc3-34b0c39f03c4</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[0c5e4fe8-0ada-4cdc-afc3-34b0c39f03c4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>716f8441-5461-46b4-a161-f79a20366965</key>
+                    <parentUnit>
+                        <key name="name" value="0c5e4fe8-0ada-4cdc-afc3-34b0c39f03c4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="position" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>1bd65493-6714-4155-a031-414a0eee2b9c</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[1bd65493-6714-4155-a031-414a0eee2b9c].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>a7d96054-c061-44f2-b319-2cd6ee03ad70</key>
+                    <parentUnit>
+                        <key name="name" value="1bd65493-6714-4155-a031-414a0eee2b9c" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="supportedObj" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>6b6fce35-5624-4725-a34b-22f69c372e41</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[6b6fce35-5624-4725-a34b-22f69c372e41].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b89920aa-9dc2-47f2-bd7a-7aae18864cdb</key>
+                    <parentUnit>
+                        <key name="name" value="6b6fce35-5624-4725-a34b-22f69c372e41" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="supportedObj" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>125cd7aa-fbc1-4df8-9c29-c7996852cc11</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[125cd7aa-fbc1-4df8-9c29-c7996852cc11].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>c5758d0b-8d26-41da-9db4-f1329b20cfdd</key>
+                    <parentUnit>
+                        <key name="name" value="125cd7aa-fbc1-4df8-9c29-c7996852cc11" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="orgUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3b114722-7096-4b54-904e-fe650f2d435d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[3b114722-7096-4b54-904e-fe650f2d435d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>13f8e2fc-3ee5-4500-8315-917ac3cddc18</key>
+                    <parentUnit>
+                        <key name="name" value="3b114722-7096-4b54-904e-fe650f2d435d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>37fce638-b1bf-493a-a68b-5fad35e5dcaf</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[37fce638-b1bf-493a-a68b-5fad35e5dcaf].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>d4a35735-9af2-4a96-9cdd-8c561b9302bc</key>
+                    <parentUnit>
+                        <key name="name" value="37fce638-b1bf-493a-a68b-5fad35e5dcaf" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="biller" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>ef62cd48-3d59-429f-94fe-b84e6a17d6dc</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[ef62cd48-3d59-429f-94fe-b84e6a17d6dc].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>23c2d02c-c142-4689-a0c3-767183f085ed</key>
+                    <parentUnit>
+                        <key name="name" value="ef62cd48-3d59-429f-94fe-b84e6a17d6dc" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="biller" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>e1348596-7238-4624-89ad-186d5709ddc7</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[e1348596-7238-4624-89ad-186d5709ddc7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>2d381b51-b704-448c-a524-f8fa94a7c225</key>
+                    <parentUnit>
+                        <key name="name" value="e1348596-7238-4624-89ad-186d5709ddc7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>ee07de3a-924d-4627-b0ee-060182ade9ae</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[ee07de3a-924d-4627-b0ee-060182ade9ae].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b40cb4f0-9b40-44cc-bcf7-2b6d99aaa440</key>
+                    <parentUnit>
+                        <key name="name" value="ee07de3a-924d-4627-b0ee-060182ade9ae" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>5a3d01ca-99f4-4014-8f28-c0cbe5dfda3d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[5a3d01ca-99f4-4014-8f28-c0cbe5dfda3d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>e4f441e8-524d-424e-ae71-a66ac207548e</key>
+                    <parentUnit>
+                        <key name="name" value="5a3d01ca-99f4-4014-8f28-c0cbe5dfda3d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>bbae61ab-8937-4582-b9d5-66aeb4dcc639</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[bbae61ab-8937-4582-b9d5-66aeb4dcc639].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>65e53b07-48f6-40ed-aa5c-98e487e7eca7</key>
+                    <parentUnit>
+                        <key name="name" value="bbae61ab-8937-4582-b9d5-66aeb4dcc639" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>1a93c010-080f-4929-9227-9892addcd756</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[1a93c010-080f-4929-9227-9892addcd756].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>6974ad40-b181-4e72-8c40-eba79eebe0ba</key>
+                    <parentUnit>
+                        <key name="name" value="1a93c010-080f-4929-9227-9892addcd756" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="applierCompany" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>c8d3a279-0579-45eb-ad98-cec6b465010f</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[c8d3a279-0579-45eb-ad98-cec6b465010f].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>ee076ea3-c21a-4ba9-ba9f-12ec508a0bb7</key>
+                    <parentUnit>
+                        <key name="name" value="c8d3a279-0579-45eb-ad98-cec6b465010f" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applierCompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>6a52346c-1a5c-4313-a0c1-76a6251f3699</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[6a52346c-1a5c-4313-a0c1-76a6251f3699].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>7bcb32eb-55f7-463c-a65d-8cd1f9369686</key>
+                    <parentUnit>
+                        <key name="name" value="6a52346c-1a5c-4313-a0c1-76a6251f3699" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="payMode" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a30eced4-fcff-4c9d-8169-0b5a15f4e72d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[a30eced4-fcff-4c9d-8169-0b5a15f4e72d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>223670f0-2330-423b-ab9b-45cf5f6b86b0</key>
+                    <parentUnit>
+                        <key name="name" value="a30eced4-fcff-4c9d-8169-0b5a15f4e72d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="payMode" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>807973f6-b1e1-403c-b06f-6db7959db271</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[807973f6-b1e1-403c-b06f-6db7959db271].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>69a32252-9790-4de7-b135-f469a056b795</key>
+                    <parentUnit>
+                        <key name="name" value="807973f6-b1e1-403c-b06f-6db7959db271" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="accountDebited" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>05d0a6f7-aebb-4e23-a2f9-af898d7fac62</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[05d0a6f7-aebb-4e23-a2f9-af898d7fac62].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c754732f-11fb-46e7-ad91-643102ddab1c</key>
+                    <parentUnit>
+                        <key name="name" value="05d0a6f7-aebb-4e23-a2f9-af898d7fac62" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountDebited" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>59fbb979-18c3-4c1e-97fe-ff06b173881a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[59fbb979-18c3-4c1e-97fe-ff06b173881a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d4136535-4ebf-4ef4-9888-0207794763dd</key>
+                    <parentUnit>
+                        <key name="name" value="59fbb979-18c3-4c1e-97fe-ff06b173881a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="accountCredited" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>5e6973d4-4946-4a4f-b619-5b4a781fe1c0</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[5e6973d4-4946-4a4f-b619-5b4a781fe1c0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e42fcaac-2eae-41dc-9ab5-5112191ccd09</key>
+                    <parentUnit>
+                        <key name="name" value="5e6973d4-4946-4a4f-b619-5b4a781fe1c0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountCredited" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>dd8238c9-3368-4e4e-a4fb-07a5ee970518</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[dd8238c9-3368-4e4e-a4fb-07a5ee970518].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9782cc96-8952-4d0e-9309-f06fc3737502</key>
+                    <parentUnit>
+                        <key name="name" value="dd8238c9-3368-4e4e-a4fb-07a5ee970518" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>cc9d8292-1e3b-4883-acab-5a6f731440e3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[cc9d8292-1e3b-4883-acab-5a6f731440e3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5b34ed98-ccf2-46f2-a3e6-fbffd8b36b35</key>
+                    <parentUnit>
+                        <key name="name" value="cc9d8292-1e3b-4883-acab-5a6f731440e3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>0d403e79-efa4-4651-9068-099f347cf8a8</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[0d403e79-efa4-4651-9068-099f347cf8a8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>dc94c8ed-07f5-4ef5-9370-344101ff7e36</key>
+                    <parentUnit>
+                        <key name="name" value="0d403e79-efa4-4651-9068-099f347cf8a8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="currencyType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>23d2ca21-2ab2-42e8-a981-f117afbbc551</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[23d2ca21-2ab2-42e8-a981-f117afbbc551].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>742de495-2e2b-4a56-93fc-2a42444bd151</key>
+                    <parentUnit>
+                        <key name="name" value="23d2ca21-2ab2-42e8-a981-f117afbbc551" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currencyType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ef931169-33b8-489e-95e8-3cb6526a05dc</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>budgetAmount</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[budgetAmount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>50fe5205-0f13-4948-abd7-aa38e094597d</key>
+                    <parentUnit>
+                        <key name="name" value="budgetAmount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="budgetAmount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountStriked</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountStriked].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>50276fa8-40a6-41e8-9f95-9cc8b6e4737c</key>
+                    <parentUnit>
+                        <key name="name" value="amountStriked" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountStriked" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountEncashed</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountEncashed].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7fb38f7e-1a61-4b8b-b6a0-ac4e3215b173</key>
+                    <parentUnit>
+                        <key name="name" value="amountEncashed" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountEncashed" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountRefunded</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountRefunded].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e56b71d0-652b-4bbb-b6f3-1232e05ac403</key>
+                    <parentUnit>
+                        <key name="name" value="amountRefunded" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountRefunded" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>accessoryCount</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[accessoryCount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2b35c5bd-efeb-4200-8845-7124151ddcc2</key>
+                    <parentUnit>
+                        <key name="name" value="accessoryCount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="accessoryCount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amount</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c2d7da50-9e54-447d-b0ab-f62ee88474d9</key>
+                    <parentUnit>
+                        <key name="name" value="amount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountApproved</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountApproved].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0f24f2e4-c845-4f11-8246-f71787b4f236</key>
+                    <parentUnit>
+                        <key name="name" value="amountApproved" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountApproved" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountSendedBack</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountSendedBack].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>83f69f46-4386-4674-9a4c-89061014c333</key>
+                    <parentUnit>
+                        <key name="name" value="amountSendedBack" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountSendedBack" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountCopy</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountCopy].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>539ae550-1cf3-4481-a05a-e016257be61f</key>
+                    <parentUnit>
+                        <key name="name" value="amountCopy" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountCopy" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d0874959-2295-4c73-8b43-6182381f4472</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>tel</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[tel].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bca7049f-6001-44d8-a3c7-7fa8c4c7bdfb</key>
+                    <parentUnit>
+                        <key name="name" value="tel" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="tel" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizReqDate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[bizReqDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>af4abc29-fc9b-4812-8dc8-4addeaec5feb</key>
+                    <parentUnit>
+                        <key name="name" value="bizReqDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizReqDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>cause</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[cause].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a3654897-ea48-4859-a2fa-4a2f00cb157a</key>
+                    <parentUnit>
+                        <key name="name" value="cause" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="cause" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>prior</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[prior].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3a81308f-03cc-4cdb-9c2d-b7a75e301a16</key>
+                    <parentUnit>
+                        <key name="name" value="prior" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="prior" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>state</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[state].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>742b8a65-f783-434c-a177-7e8d401f4c7f</key>
+                    <parentUnit>
+                        <key name="name" value="state" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="state" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditDate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[auditDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ec747664-4912-4723-9c3b-c6088b147245</key>
+                    <parentUnit>
+                        <key name="name" value="auditDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>billDate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[billDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>999ebddd-897f-4860-87e3-9cfd7e5dba82</key>
+                    <parentUnit>
+                        <key name="name" value="billDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="billDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0e3c1974-2e74-4088-bd30-a839bdd1dc08</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3172da59-4897-4460-b84a-73c9df4a9c16</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>db82b477-7ba8-4eda-994d-02103547b21d</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0e6f8516-9496-4667-ab99-968adbee226a</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a61e2eb4-dba6-43c6-9aec-b34b62482b1a</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>billTypeCode</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[billTypeCode].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>99060ca1-e205-4b9c-9a22-61011badf754</key>
+                    <parentUnit>
+                        <key name="name" value="billTypeCode" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="billTypeCode" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountControlType</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountControlType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>05da7420-bea5-4a26-bd8a-66a10be2429a</key>
+                    <parentUnit>
+                        <key name="name" value="amountControlType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountControlType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>applier.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[applier.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ba3598e2-8c61-4fa0-a6ee-c85cbe2b5064</key>
+                    <parentUnit>
+                        <key name="name" value="applier.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applier" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>company.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[company.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1bc5e593-e9f4-4d6b-873a-7c51e78e4ab5</key>
+                    <parentUnit>
+                        <key name="name" value="company.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bb762d98-2f94-4fe4-9b7e-817995eb2c5d</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CU.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[CU.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c91116f1-d62a-49d0-a9a5-ef6c4f582591</key>
+                    <parentUnit>
+                        <key name="name" value="CU.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>costedDept.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[costedDept.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>121ba93d-641b-4eff-a850-517902c786d3</key>
+                    <parentUnit>
+                        <key name="name" value="costedDept.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="costedDept" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>accountDebited.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[accountDebited.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d86bcb79-3f50-4a86-a9e8-0be8956b92be</key>
+                    <parentUnit>
+                        <key name="name" value="accountDebited.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountDebited" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>accountCredited.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[accountCredited.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0a4ba870-a60b-4a70-a024-15e624794358</key>
+                    <parentUnit>
+                        <key name="name" value="accountCredited.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="accountCredited" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f52e1d5f-af90-445d-bf54-096d41669140</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>position.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[position.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>19b140c7-74e3-43c8-8926-9f41c871cf88</key>
+                    <parentUnit>
+                        <key name="name" value="position.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="position" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>currencyType.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[currencyType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a1c58baf-e5d0-485d-92b2-ce1069aadfc5</key>
+                    <parentUnit>
+                        <key name="name" value="currencyType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="currencyType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>supportedObj.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[supportedObj.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4de543ed-e50c-4368-b45f-e7d71b479c8f</key>
+                    <parentUnit>
+                        <key name="name" value="supportedObj.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="supportedObj" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>orgUnit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[orgUnit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6f406a04-d38e-41dd-be09-2a996092892d</key>
+                    <parentUnit>
+                        <key name="name" value="orgUnit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="orgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>biller.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[biller.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9ab45302-b98e-4bcd-ab1f-a2ec43c75a6b</key>
+                    <parentUnit>
+                        <key name="name" value="biller.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="biller" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ea1720a4-70fd-43f5-9986-90909fce21e2</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[handler.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a30f12c2-6a19-4bef-840b-8bd742396859</key>
+                    <parentUnit>
+                        <key name="name" value="handler.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>applierCompany.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[applierCompany.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1f987146-f59d-4c54-a8f7-98206e8be244</key>
+                    <parentUnit>
+                        <key name="name" value="applierCompany.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="applierCompany" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>payMode.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[payMode.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a41559f3-9ff6-4a08-b9b5-c9cf819fcb35</key>
+                    <parentUnit>
+                        <key name="name" value="payMode.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="payMode" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>prioralias</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[prioralias].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5d76daeb-a443-487d-bb35-212c90a320ae</key>
+                    <parentUnit>
+                        <key name="name" value="prioralias" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountCapital</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountCapital].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9a962357-d7f3-494f-aa45-cff8c36a9834</key>
+                    <parentUnit>
+                        <key name="name" value="amountCapital" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>amountBalance</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountBalance].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3215d2c0-390b-4fed-b80b-9250c1d5f241</key>
+                    <parentUnit>
+                        <key name="name" value="amountBalance" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amountBalance" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>stateAlias</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[stateAlias].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f51385f2-ee6a-4b43-8c2c-7f96c63ce565</key>
+                    <parentUnit>
+                        <key name="name" value="stateAlias" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>outAppBillNo</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[outAppBillNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>216ce3df-1bac-43a3-bfe4-50fbf6b0fff8</key>
+                    <parentUnit>
+                        <key name="name" value="outAppBillNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="outAppBillNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isEducate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[isEducate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>94de271e-8b2f-4427-bc33-afcfb9229f5f</key>
+                    <parentUnit>
+                        <key name="name" value="isEducate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="TravelAccountBill" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isEducate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.cp.bc.app" />
+            <key name="name" value="TravelAccountBillForR1PrintQuery" />
+        </query>
+    </defaultFilter>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>4a9a275b-4bf8-4064-bed0-fb4f3f1e9926</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="applier" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>87c55fe7-7305-4289-be9d-60000b130801</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="9467df57-7538-4c8d-8076-ef2af3dec691" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a6124010-9d3e-4995-beed-4ad1b30bcbc6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="4a9a275b-4bf8-4064-bed0-fb4f3f1e9926" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>0c339fa4-2ee0-4295-ad54-4972b15e9e23</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="company" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>3edb0369-74a0-4c9c-8b30-08fc6aa20806</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="f1894a5a-b8cb-4f6b-9f41-7cc79f151071" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="dc27d353-fc6f-48af-ae37-1aac6e34b842" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="0c339fa4-2ee0-4295-ad54-4972b15e9e23" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>00ddbfc5-2c18-49b3-8300-33c01789bf9a</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>9cd46d5c-bc07-4613-a5c0-a612d3b5a125</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="8e357fca-decf-4681-9bda-fa5fb3d5bc26" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="59ceddbf-0efc-414d-8a2c-fd1566a1d1fc" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="00ddbfc5-2c18-49b3-8300-33c01789bf9a" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>dcdf9eb8-b142-4e23-b493-ef4b524e5068</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="CU" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>88e7a8ee-ea47-4fdf-b3da-8ec548875e0a</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="dd8238c9-3368-4e4e-a4fb-07a5ee970518" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="cc9d8292-1e3b-4883-acab-5a6f731440e3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="dcdf9eb8-b142-4e23-b493-ef4b524e5068" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>40c4a749-39ea-43a2-90bc-d3739d46e22b</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="costedDept" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>57052014-fddf-458c-94ec-2ecb7e9b9fd5</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="1358aba8-a696-47af-b6f5-1d8fdff034c3" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="f9fc760d-774a-4d99-8ffb-2eda9720d951" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="40c4a749-39ea-43a2-90bc-d3739d46e22b" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>3f503af9-290e-4533-bdf6-110fbb0505f4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="accountDebited" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>7e95cf92-ebb6-4310-9cde-842b8903a3f7</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="807973f6-b1e1-403c-b06f-6db7959db271" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="05d0a6f7-aebb-4e23-a2f9-af898d7fac62" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="3f503af9-290e-4533-bdf6-110fbb0505f4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>36c88b59-b0ad-4613-b0e0-0cbb1fc31080</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="accountCredited" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>4bc7e9ac-6e0f-4923-ad3e-5a6e9c332918</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="59fbb979-18c3-4c1e-97fe-ff06b173881a" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="5e6973d4-4946-4a4f-b619-5b4a781fe1c0" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="36c88b59-b0ad-4613-b0e0-0cbb1fc31080" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>d8731a93-e8d9-4fa8-a69b-76bedafdfa08</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>162215b9-3304-420b-9bf4-93936719991d</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b45e611b-25cf-49c1-965b-50727620bf4e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="fc06bad0-9aaf-41af-8cc9-e392f90ec8a3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="d8731a93-e8d9-4fa8-a69b-76bedafdfa08" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>ef64f57d-f75c-4175-94b5-d2e793992f8f</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="position" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>8d32a08c-260f-49a7-9f74-fa12c9127c1e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="cec16a15-27e6-448f-8ab5-5d1aa7d3bfc5" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="0c5e4fe8-0ada-4cdc-afc3-34b0c39f03c4" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="ef64f57d-f75c-4175-94b5-d2e793992f8f" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>13fef44c-af2d-48fa-b099-e770dc096e48</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="currencyType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>d67b9b1a-780c-4e89-928a-e11c89c2e427</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="0d403e79-efa4-4651-9068-099f347cf8a8" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="23d2ca21-2ab2-42e8-a981-f117afbbc551" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="13fef44c-af2d-48fa-b099-e770dc096e48" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>3a64345c-4000-4c88-a995-64b5c1a65d54</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="supportedObj" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>dc5ab20e-1f45-41bb-984e-48aff8d6c5f6</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="1bd65493-6714-4155-a031-414a0eee2b9c" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="6b6fce35-5624-4725-a34b-22f69c372e41" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="3a64345c-4000-4c88-a995-64b5c1a65d54" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>0534dc31-708b-4fa8-b820-7a69fa8543db</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="orgUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>722d01ab-ce1c-42db-87f2-65750d740a07</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="125cd7aa-fbc1-4df8-9c29-c7996852cc11" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3b114722-7096-4b54-904e-fe650f2d435d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="0534dc31-708b-4fa8-b820-7a69fa8543db" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>6fdbcae5-ea15-47e0-9562-122e9d7f65b9</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="biller" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>3dd6a8a9-84ce-4644-b407-f71fb0b964a8</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="37fce638-b1bf-493a-a68b-5fad35e5dcaf" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="ef62cd48-3d59-429f-94fe-b84e6a17d6dc" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="6fdbcae5-ea15-47e0-9562-122e9d7f65b9" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>67436f76-f800-4817-b15d-0686d806e118</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>38aefe6f-5f46-42ac-8f1d-b6ef6f93954a</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="e1348596-7238-4624-89ad-186d5709ddc7" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="ee07de3a-924d-4627-b0ee-060182ade9ae" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="67436f76-f800-4817-b15d-0686d806e118" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>f27b3fdd-255b-4777-926a-74c542a921ff</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>714ca81c-e1dc-49a6-872b-b09b522be399</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="5a3d01ca-99f4-4014-8f28-c0cbe5dfda3d" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="bbae61ab-8937-4582-b9d5-66aeb4dcc639" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="f27b3fdd-255b-4777-926a-74c542a921ff" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>c04c4ac9-c187-4e72-90d5-b18ba6fd2150</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="applierCompany" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>1656be16-b89c-4411-8e75-42d49c21980f</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="1a93c010-080f-4929-9227-9892addcd756" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="c8d3a279-0579-45eb-ad98-cec6b465010f" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="c04c4ac9-c187-4e72-90d5-b18ba6fd2150" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+        <join>
+            <name>10f710c8-2545-45c2-93b4-5cff771f3f15</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="TravelAccountBill" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="payMode" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>61333170-f2e7-42a3-9436-b05491c23915</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="6a52346c-1a5c-4313-a0c1-76a6251f3699" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a30eced4-fcff-4c9d-8169-0b5a15f4e72d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="10f710c8-2545-45c2-93b4-5cff771f3f15" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="TravelAccountBillForR1PrintQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].alias">
+            <lang locale="zh_CN" value="差旅费报销单用于R1套打的query" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="差旅費報銷單用於R1套打的query" />
+            <lang locale="zh_TW" value="差旅費報銷單用於R1套打的query" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].description">
+            <lang locale="zh_CN" value="差旅费报销单用于R1套打的query" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="差旅費報銷單用於R1套打的query" />
+            <lang locale="zh_TW" value="差旅費報銷單用於R1套打的query" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[CU].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[TravelAccountBill].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[accountCredited].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[accountDebited].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[applierCompany].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[applier].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[biller].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[company].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[costedDept].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[creator].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[currencyType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[handler].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[orgUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[payMode].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[position].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].subObjects.subEntity[supportedObj].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[05d0a6f7-aebb-4e23-a2f9-af898d7fac62].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[0c5e4fe8-0ada-4cdc-afc3-34b0c39f03c4].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[0d403e79-efa4-4651-9068-099f347cf8a8].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[125cd7aa-fbc1-4df8-9c29-c7996852cc11].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[1358aba8-a696-47af-b6f5-1d8fdff034c3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[1a93c010-080f-4929-9227-9892addcd756].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[1bd65493-6714-4155-a031-414a0eee2b9c].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[23d2ca21-2ab2-42e8-a981-f117afbbc551].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[37fce638-b1bf-493a-a68b-5fad35e5dcaf].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[3b114722-7096-4b54-904e-fe650f2d435d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[59ceddbf-0efc-414d-8a2c-fd1566a1d1fc].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[59fbb979-18c3-4c1e-97fe-ff06b173881a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[5a3d01ca-99f4-4014-8f28-c0cbe5dfda3d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[5e6973d4-4946-4a4f-b619-5b4a781fe1c0].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[6a52346c-1a5c-4313-a0c1-76a6251f3699].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[6b6fce35-5624-4725-a34b-22f69c372e41].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[807973f6-b1e1-403c-b06f-6db7959db271].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[8e357fca-decf-4681-9bda-fa5fb3d5bc26].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[9467df57-7538-4c8d-8076-ef2af3dec691].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[a30eced4-fcff-4c9d-8169-0b5a15f4e72d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[a6124010-9d3e-4995-beed-4ad1b30bcbc6].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[b45e611b-25cf-49c1-965b-50727620bf4e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[bbae61ab-8937-4582-b9d5-66aeb4dcc639].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[c8d3a279-0579-45eb-ad98-cec6b465010f].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[cc9d8292-1e3b-4883-acab-5a6f731440e3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[cec16a15-27e6-448f-8ab5-5d1aa7d3bfc5].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[dc27d353-fc6f-48af-ae37-1aac6e34b842].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[dd8238c9-3368-4e4e-a4fb-07a5ee970518].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[e1348596-7238-4624-89ad-186d5709ddc7].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[ee07de3a-924d-4627-b0ee-060182ade9ae].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[ef62cd48-3d59-429f-94fe-b84e6a17d6dc].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[f1894a5a-b8cb-4f6b-9f41-7cc79f151071].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[f9fc760d-774a-4d99-8ffb-2eda9720d951].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.propertyUnit[fc06bad0-9aaf-41af-8cc9-e392f90ec8a3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[CU.name].displayName">
+            <lang locale="zh_CN" value="管理单元" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="管理單元" />
+            <lang locale="zh_TW" value="管理單元" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[accessoryCount].displayName">
+            <lang locale="zh_CN" value="附件数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件數" />
+            <lang locale="zh_TW" value="附件數" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[accountCredited.name].displayName">
+            <lang locale="zh_CN" value="贷方科目" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="貸方科目" />
+            <lang locale="zh_TW" value="貸方科目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[accountDebited.name].displayName">
+            <lang locale="zh_CN" value="借方科目" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="借方科目" />
+            <lang locale="zh_TW" value="借方科目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountApproved].displayName">
+            <lang locale="zh_CN" value="核定金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="核定金額" />
+            <lang locale="zh_TW" value="核定金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountBalance].displayName">
+            <lang locale="zh_CN" value="可用余额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="可用餘額" />
+            <lang locale="zh_TW" value="可用餘額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountCapital].displayName">
+            <lang locale="zh_CN" value="金额合计大写" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="金額合計大寫" />
+            <lang locale="zh_TW" value="金額合計大寫" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountControlType].displayName">
+            <lang locale="zh_CN" value="可超额控制" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="可超額控制" />
+            <lang locale="zh_TW" value="可超額控制" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountCopy].displayName">
+            <lang locale="zh_CN" value="合计金额副本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合計金額副本" />
+            <lang locale="zh_TW" value="合計金額副本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountEncashed].displayName">
+            <lang locale="zh_CN" value="付现" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付現" />
+            <lang locale="zh_TW" value="付現" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountRefunded].displayName">
+            <lang locale="zh_CN" value="应退款" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="應退款" />
+            <lang locale="zh_TW" value="應退款" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountSendedBack].displayName">
+            <lang locale="zh_CN" value="还款金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="還款金額" />
+            <lang locale="zh_TW" value="還款金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amountStriked].displayName">
+            <lang locale="zh_CN" value="冲帐" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="沖帳" />
+            <lang locale="zh_TW" value="沖帳" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[amount].displayName">
+            <lang locale="zh_CN" value="合计金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合計金額" />
+            <lang locale="zh_TW" value="合計金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[applier.name].displayName">
+            <lang locale="zh_CN" value="申请人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請人" />
+            <lang locale="zh_TW" value="申請人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[applierCompany.name].displayName">
+            <lang locale="zh_CN" value="申请人公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請人公司" />
+            <lang locale="zh_TW" value="申請人公司" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[auditDate].displayName">
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核日期" />
+            <lang locale="zh_TW" value="審核日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[auditor.name].displayName">
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[billDate].displayName">
+            <lang locale="zh_CN" value="制单日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="制單日期" />
+            <lang locale="zh_TW" value="制單日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[billTypeCode].displayName">
+            <lang locale="zh_CN" value="单据类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據類型" />
+            <lang locale="zh_TW" value="單據類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[biller.name].displayName">
+            <lang locale="zh_CN" value="制单人" />
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_HK" value="制單人" />
+            <lang locale="zh_TW" value="制單人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[bizDate].displayName">
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="en_US" value="" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[bizReqDate].displayName">
+            <lang locale="zh_CN" value="申请日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請日期" />
+            <lang locale="zh_TW" value="申請日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[budgetAmount].displayName">
+            <lang locale="zh_CN" value="预记数额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="預記數額" />
+            <lang locale="zh_TW" value="預記數額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[cause].displayName">
+            <lang locale="zh_CN" value="事由" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="事由" />
+            <lang locale="zh_TW" value="事由" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[company.name].displayName">
+            <lang locale="zh_CN" value="费用支付公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="費用支付公司" />
+            <lang locale="zh_TW" value="費用支付公司" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[costedDept.name].displayName">
+            <lang locale="zh_CN" value="费用支付部门" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="費用支付部門" />
+            <lang locale="zh_TW" value="費用支付部門" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[createTime].displayName">
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="en_US" value="createTime" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[creator.name].displayName">
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[currencyType.name].displayName">
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="幣別" />
+            <lang locale="zh_TW" value="幣別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[description].displayName">
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[handler.name].displayName">
+            <lang locale="zh_CN" value="经手人" />
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_HK" value="經手人" />
+            <lang locale="zh_TW" value="經手人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[isEducate].displayName">
+            <lang locale="zh_CN" value="是否培训" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否培訓" />
+            <lang locale="zh_TW" value="是否培訓" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="en_US" value="lastUpdateTime" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[orgUnit.name].displayName">
+            <lang locale="zh_CN" value="申请部门" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請部門" />
+            <lang locale="zh_TW" value="申請部門" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[outAppBillNo].displayName">
+            <lang locale="zh_CN" value="出差申请单号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="出差申請單號" />
+            <lang locale="zh_TW" value="出差申請單號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[payMode.name].displayName">
+            <lang locale="zh_CN" value="支付方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="支付方式" />
+            <lang locale="zh_TW" value="支付方式" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[position.name].displayName">
+            <lang locale="zh_CN" value="职位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="職位" />
+            <lang locale="zh_TW" value="職位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[prior].displayName">
+            <lang locale="zh_CN" value="紧急程度" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="緊急程度" />
+            <lang locale="zh_TW" value="緊急程度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[prioralias].displayName">
+            <lang locale="zh_CN" value="紧急程度别名" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="緊急程度別名" />
+            <lang locale="zh_TW" value="緊急程度別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[stateAlias].displayName">
+            <lang locale="zh_CN" value="状态别名" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="狀態別名" />
+            <lang locale="zh_TW" value="狀態別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[state].displayName">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[supportedObj.name].displayName">
+            <lang locale="zh_CN" value="费用承担对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="費用承擔對象" />
+            <lang locale="zh_TW" value="費用承擔對象" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.cp.bc.app.TravelAccountBillForR1PrintQuery].units.queryField[tel].displayName">
+            <lang locale="zh_CN" value="联系电话" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="聯繫電話" />
+            <lang locale="zh_TW" value="聯繫電話" />
+        </rs>
+    </resource>
+</joinQuery>
+

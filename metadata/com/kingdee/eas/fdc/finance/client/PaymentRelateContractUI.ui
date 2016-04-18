@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance.client</package>
+    <name>PaymentRelateContractUI</name>
+    <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.fdc.finance.client</releasePackage>
+    <releaseClass>PaymentRelateContractUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <components>
+        <component>
+            <name>PaymentRelateContractUI</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[PaymentRelateContractUI].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,400,150</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>PaymentRelateContractUI_toolbar</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[PaymentRelateContractUI_toolbar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDToolBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,30</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>FlowLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>PaymentRelateContractUI_menubar</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[PaymentRelateContractUI_menubar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,1016,28</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kdtContract</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>15,51,365,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="PaymentRelateContractUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDButton1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDButton1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>305,105,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDButton1].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="PaymentRelateContractUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>kDButton1_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDLabelContainer1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>14,20,365,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="PaymentRelateContractUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabel1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabel1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabel</classType>
+            <isContainer>false</isContainer>
+            <constraints>15,81,97,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabel1].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="PaymentRelateContractUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kdcboPayCon</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboPayCon].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>112,108,134,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboPayCon].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="PaymentRelateContractUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>stateChanged</name>
+                    <eventType>javax.swing.event.ChangeEvent</eventType>
+                    <scene />
+                    <listenerType>javax.swing.event.ChangeListener</listenerType>
+                    <listenerAdapter>javax.swing.event.ChangeListener</listenerAdapter>
+                    <methodName>kdcboPayCon_stateChanged</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kdcboAllCon</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboAllCon].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>112,81,140,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboAllCon].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="PaymentRelateContractUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>stateChanged</name>
+                    <eventType>javax.swing.event.ChangeEvent</eventType>
+                    <scene />
+                    <listenerType>javax.swing.event.ChangeListener</listenerType>
+                    <listenerAdapter>javax.swing.event.ChangeListener</listenerAdapter>
+                    <methodName>kdcboAllCon_stateChanged</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>pmtContract</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>queryInfo</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[queryInfo].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kdtContract" />
+            </parent>
+        </component>
+        <component>
+            <name>txtnumber</name>
+            <alias>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[txtnumber].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[txtnumber].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer1" />
+            </parent>
+        </component>
+    </components>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].alias">
+            <lang locale="zh_CN" value="其它付款单关联合同" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="其他付款單關聯合同" />
+            <lang locale="zh_TW" value="其他付款單關聯合同" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[PaymentRelateContractUI].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[PaymentRelateContractUI_menubar].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[PaymentRelateContractUI_toolbar].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDButton1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDButton1].properties.property[text].value">
+            <lang locale="zh_CN" value="确认" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="確認" />
+            <lang locale="zh_TW" value="確認" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabel1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabel1].properties.property[text].value">
+            <lang locale="zh_CN" value="合同筛选条件：" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同篩選條件：" />
+            <lang locale="zh_TW" value="合同篩選條件：" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="其他付款单编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="其他付款單編號" />
+            <lang locale="zh_TW" value="其他付款單編號" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboAllCon].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboAllCon].properties.property[text].value">
+            <lang locale="zh_CN" value="所有合同" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所有合同" />
+            <lang locale="zh_TW" value="所有合同" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboPayCon].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdcboPayCon].properties.property[text].value">
+            <lang locale="zh_CN" value="收款方合同" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款方合同" />
+            <lang locale="zh_TW" value="收款方合同" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="合同" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同" />
+            <lang locale="zh_TW" value="合同" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[kdtContract].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[commitFormat].value">
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[displayFormat].value">
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[editFormat].value">
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[pmtContract].properties.property[queryInfo].value">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.contract.app.ContractBillQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.contract.app.ContractBillQuery" />
+            <lang locale="zh_HK" value="com.kingdee.eas.fdc.contract.app.ContractBillQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.contract.app.ContractBillQuery" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[txtnumber].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].components.component[txtnumber].properties.property[enabled].value">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].description">
+            <lang locale="zh_CN" value="其它付款单关联合同" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="其他付款單關聯合同" />
+            <lang locale="zh_TW" value="其他付款單關聯合同" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.finance.client.PaymentRelateContractUI].title">
+            <lang locale="zh_CN" value="其它付款单关联合同" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="其他付款單關聯合同" />
+            <lang locale="zh_TW" value="其他付款單關聯合同" />
+        </rs>
+    </resource>
+</uiObject>
+

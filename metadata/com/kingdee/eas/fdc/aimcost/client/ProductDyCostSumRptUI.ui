@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.client</package>
+    <name>ProductDyCostSumRptUI</name>
+    <alias>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.fdc.aimcost.client</releasePackage>
+    <releaseClass>ProductDyCostSumRptUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.client" />
+        <key name="name" value="CoreUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>kDLayout1</name>
+                <type>KDLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>tblMain</name>
+            <alias>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[tblMain].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
+            <isContainer>false</isContainer>
+            <constraints>10,40,980,580,15</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>formatXml</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[tblMain].properties.property[formatXml].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contBizDate</name>
+            <alias>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,270,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>btnSearch</name>
+            <alias>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[btnSearch].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>305,7,72,23,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[btnSearch].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[btnSearch].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>pkBizDate</name>
+            <alias>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[pkBizDate].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDDatePicker</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="contBizDate" />
+            </parent>
+        </component>
+    </components>
+    <actions>
+        <action>
+            <instanceName>actionSearch</instanceName>
+            <className>ActionSearch</className>
+            <name>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].name</name>
+            <enabled>false</enabled>
+            <actionPerformed />
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
+    </actions>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].longDescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].name">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].shortDescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].actions.action[actionSearch].smallIcon">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].alias">
+            <lang locale="zh_CN" value="各产品类型动态成本汇总表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="各產品類型動態成本匯總表" />
+            <lang locale="zh_TW" value="各產品類型動態成本匯總表" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[CoreUI].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[btnSearch].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[btnSearch].properties.property[action].value">
+            <lang locale="zh_CN" value="actionSearch" />
+            <lang locale="en_US" value="actionSearch" />
+            <lang locale="zh_HK" value="actionSearch" />
+            <lang locale="zh_TW" value="actionSearch" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[btnSearch].properties.property[text].value">
+            <lang locale="zh_CN" value="查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢" />
+            <lang locale="zh_TW" value="查詢" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="80" />
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[contBizDate].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[pkBizDate].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[tblMain].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].components.component[tblMain].properties.property[formatXml].value">
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles /&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;productType&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimSellArea&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimTotalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimSellUnit&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynSellArea&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynTotalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynSellUnit&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;deviationRate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header1&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;项目名称&lt;/t:Cell&gt;&lt;t:Cell&gt;产品类型&lt;/t:Cell&gt;&lt;t:Cell&gt;目标成本&lt;/t:Cell&gt;&lt;t:Cell&gt;目标成本&lt;/t:Cell&gt;&lt;t:Cell&gt;目标成本&lt;/t:Cell&gt;&lt;t:Cell&gt;动态成本&lt;/t:Cell&gt;&lt;t:Cell&gt;动态成本&lt;/t:Cell&gt;&lt;t:Cell&gt;动态成本&lt;/t:Cell&gt;&lt;t:Cell&gt;总成本偏差率&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;t:Row t:name=&quot;header2&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;项目名称&lt;/t:Cell&gt;&lt;t:Cell&gt;产品类型&lt;/t:Cell&gt;&lt;t:Cell&gt;可售面积&lt;/t:Cell&gt;&lt;t:Cell&gt;总成本&lt;/t:Cell&gt;&lt;t:Cell&gt;可售单方&lt;/t:Cell&gt;&lt;t:Cell&gt;可售面积&lt;/t:Cell&gt;&lt;t:Cell&gt;总成本&lt;/t:Cell&gt;&lt;t:Cell&gt;可售单方&lt;/t:Cell&gt;&lt;t:Cell&gt;总成本偏差率&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;0&quot; t:bottom=&quot;1&quot; t:right=&quot;0&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;1&quot; t:bottom=&quot;1&quot; t:right=&quot;1&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;2&quot; t:bottom=&quot;0&quot; t:right=&quot;4&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;5&quot; t:bottom=&quot;0&quot; t:right=&quot;7&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;8&quot; t:bottom=&quot;1&quot; t:right=&quot;8&quot; /&gt;&lt;/t:Head&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt; " />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles /&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;productType&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimSellArea&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimTotalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimSellUnit&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynSellArea&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynTotalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynSellUnit&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;deviationRate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header1&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;產品類型&lt;/t:Cell&gt;&lt;t:Cell&gt;目標成本&lt;/t:Cell&gt;&lt;t:Cell&gt;目標成本&lt;/t:Cell&gt;&lt;t:Cell&gt;目標成本&lt;/t:Cell&gt;&lt;t:Cell&gt;動態成本&lt;/t:Cell&gt;&lt;t:Cell&gt;動態成本&lt;/t:Cell&gt;&lt;t:Cell&gt;動態成本&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本偏差率&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;t:Row t:name=&quot;header2&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;產品類型&lt;/t:Cell&gt;&lt;t:Cell&gt;可售面積&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;可售單方&lt;/t:Cell&gt;&lt;t:Cell&gt;可售面積&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;可售單方&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本偏差率&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;0&quot; t:bottom=&quot;1&quot; t:right=&quot;0&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;1&quot; t:bottom=&quot;1&quot; t:right=&quot;1&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;2&quot; t:bottom=&quot;0&quot; t:right=&quot;4&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;5&quot; t:bottom=&quot;0&quot; t:right=&quot;7&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;8&quot; t:bottom=&quot;1&quot; t:right=&quot;8&quot; /&gt;&lt;/t:Head&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt; " />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles /&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;projectName&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;productType&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimSellArea&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimTotalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;aimSellUnit&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynSellArea&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynTotalCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;dynSellUnit&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;t:Column t:key=&quot;deviationRate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header1&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;產品類型&lt;/t:Cell&gt;&lt;t:Cell&gt;目標成本&lt;/t:Cell&gt;&lt;t:Cell&gt;目標成本&lt;/t:Cell&gt;&lt;t:Cell&gt;目標成本&lt;/t:Cell&gt;&lt;t:Cell&gt;動態成本&lt;/t:Cell&gt;&lt;t:Cell&gt;動態成本&lt;/t:Cell&gt;&lt;t:Cell&gt;動態成本&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本偏差率&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;t:Row t:name=&quot;header2&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot;&gt;&lt;t:Cell&gt;項目名稱&lt;/t:Cell&gt;&lt;t:Cell&gt;產品類型&lt;/t:Cell&gt;&lt;t:Cell&gt;可售面積&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;可售單方&lt;/t:Cell&gt;&lt;t:Cell&gt;可售面積&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本&lt;/t:Cell&gt;&lt;t:Cell&gt;可售單方&lt;/t:Cell&gt;&lt;t:Cell&gt;總成本偏差率&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;0&quot; t:bottom=&quot;1&quot; t:right=&quot;0&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;1&quot; t:bottom=&quot;1&quot; t:right=&quot;1&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;2&quot; t:bottom=&quot;0&quot; t:right=&quot;4&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;5&quot; t:bottom=&quot;0&quot; t:right=&quot;7&quot; /&gt;&lt;t:Block t:top=&quot;0&quot; t:left=&quot;8&quot; t:bottom=&quot;1&quot; t:right=&quot;8&quot; /&gt;&lt;/t:Head&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt; " />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.aimcost.client.ProductDyCostSumRptUI].title">
+            <lang locale="zh_CN" value="各产品类型动态成本汇总表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="各產品類型動態成本匯總表" />
+            <lang locale="zh_TW" value="各產品類型動態成本匯總表" />
+        </rs>
+    </resource>
+</uiObject>
+

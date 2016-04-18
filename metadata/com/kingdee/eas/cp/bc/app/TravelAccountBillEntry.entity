@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.cp.bc.app</package>
+    <name>TravelAccountBillEntry</name>
+    <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].alias</alias>
+    <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].description</description>
+    <userDefined>true</userDefined>
+    <bosType>83E90A16</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.cp.bc.TravelAccountBillEntry</businessImplName>
+    <businessControllerName>com.kingdee.eas.cp.bc.app.TravelAccountBillEntryController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].description</description>
+            <innerID>b5f44dfb-5411-480a-acaf-3d73e046e3a5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.cp.bc.app.TravelAccountBillEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].description</description>
+            <innerID>793424be-2b29-47d0-8ef4-089ee1846264</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.cp.bc.app.TravelAccountBillEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].description</description>
+            <innerID>8ab44e0d-adb5-453b-96ae-bdb5fab79cd2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.cp.bc.app.TravelAccountBillEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].description</description>
+            <innerID>af735726-d2c8-4c36-9a40-893528bc6e4c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.cp.bc.app.TravelAccountBillEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].description</description>
+            <innerID>c961d85c-34ee-40b7-b277-da47dc88997f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.cp.bc.app.TravelAccountBillEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].description</description>
+            <innerID>2e751472-e21e-477d-8794-06b402ab1113</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.cp.bc.app.TravelAccountBillEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.cp.bc.TravelAccountBill</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.cp.bc.app" />
+        <key name="name" value="EvectionExpBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.cp.bc.app" />
+        <key name="name" value="T_BC_TravelAccountBillEntry" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>bill</name>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[bill].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[bill].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FBillID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="R_TravelAccountBill_TravelAccountBillEntry_entries" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>operationType</name>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FOperationTypeId" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="R_TravelAccountBillEntry_OperationType_Id" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>costCenter</name>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FCostCenterId" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="R_TravelAccountBillEntry_CostCenter_Id" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>company</name>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FCompanyId" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.cp.bc.app" />
+                <key name="name" value="R_TravelAccountBillEntry_Company_Id" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>receiveState</name>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.cp.bc.EntryStateEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>true</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FReceiveState" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>payState</name>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[payState].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[payState].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.cp.bc.EntryStateEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>true</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[payState].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPayState" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>dayCount</name>
+            <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[dayCount].alias</alias>
+            <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[dayCount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[dayCount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FDayCount" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[bill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据头" />
+            <lang locale="zh_TW" value="單據頭" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[bill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用承担公司" />
+            <lang locale="zh_TW" value="費用承擔公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用承担公司" />
+            <lang locale="zh_TW" value="費用承擔公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].extendedProperty.isForMatching">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[company].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用承担部门" />
+            <lang locale="zh_TW" value="費用承擔部門" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="费用承担部门" />
+            <lang locale="zh_TW" value="費用承擔部門" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].extendedProperty.isForMatching">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[costCenter].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务类别" />
+            <lang locale="zh_TW" value="業務類別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务类别" />
+            <lang locale="zh_TW" value="業務類別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].extendedProperty.isForMatching">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.linkProperty[operationType].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[dayCount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="天数" />
+            <lang locale="zh_TW" value="天數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[dayCount].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[dayCount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[payState].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="应付状态" />
+            <lang locale="zh_TW" value="應付狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[payState].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="10" />
+            <lang locale="zh_TW" value="10" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[payState].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="应付状态" />
+            <lang locale="zh_TW" value="應付狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="应收状态" />
+            <lang locale="zh_TW" value="應收狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="10" />
+            <lang locale="zh_TW" value="10" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="应收状态" />
+            <lang locale="zh_TW" value="應收狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].extendedProperty.isForMatching">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.cp.bc.app.TravelAccountBillEntry].properties.ownProperty[receiveState].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

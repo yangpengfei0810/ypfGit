@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.contract.programming.app</package>
+    <name>ProgrammingContract</name>
+    <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].alias</alias>
+    <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].description</description>
+    <userDefined>false</userDefined>
+    <bosType>ECE079DB</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.contract.programming.ProgrammingContract</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.contract.programming.app.ProgrammingContractController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].description</description>
+            <innerID>d6855b92-49bf-43a5-8098-03ceadfc56da</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].description</description>
+            <innerID>ef4cb7d1-5465-45de-a9ca-8fa07188ab3b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].description</description>
+            <innerID>14023b2f-16bc-4365-91fc-40d9ce3d8f06</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].description</description>
+            <innerID>04dca02e-abdf-4448-a4ea-160574c723fc</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].description</description>
+            <innerID>1efc936b-9fc9-4f42-8798-f2491e48d76d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].description</description>
+            <innerID>96b1aa41-6d3e-43c9-bcd7-69bb709b9870</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK />
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="TreeBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.fdc.contract.programming.app" />
+        <key name="name" value="T_CON_ProgrammingContract" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>programming</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[programming].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[programming].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FProgrammingID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.contract.programming.app" />
+                <key name="name" value="R_Programming_ProgrammingContract_entries" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[parent].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.contract.programming.app" />
+                <key name="name" value="R_ProgrammingContract_ProgrammingContract_parent" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>amount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[amount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[amount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[amount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>controlAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FControlAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>balance</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[balance].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[balance].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[balance].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FBalance" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>controlBalance</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlBalance].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlBalance].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlBalance].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FControlBalance" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>signUpAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[signUpAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[signUpAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[signUpAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSignUpAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>changeAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[changeAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[changeAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[changeAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FChangeAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>settleAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[settleAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[settleAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[settleAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSettleAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>isCiting</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[isCiting].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[isCiting].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[isCiting].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FIsCiting" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>citeVersion</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[citeVersion].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[citeVersion].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[citeVersion].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FCiteVersion" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>srcId</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[srcId].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[srcId].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[srcId].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSrcId" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>attachment</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[attachment].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[attachment].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>true</isNullable>
+            <formula />
+            <length>255</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[attachment].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAttachment" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>costEntries</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[costEntries].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[costEntries].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.contract.programming.app" />
+                <key name="name" value="R_ProgrammingContract_ProgrammingContracCost_costEntries" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>economyEntries</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[economyEntries].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[economyEntries].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.contract.programming.app" />
+                <key name="name" value="R_ProgrammingContract_ProgrammingContractEconomy_economyEntries" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>sortNumber</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[sortNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[sortNumber].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[sortNumber].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSortNumber" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>workContent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[workContent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[workContent].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1024</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[workContent].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FWorkContent" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>supMaterial</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[supMaterial].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[supMaterial].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1024</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[supMaterial].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSupMaterial" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>inviteWay</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[inviteWay].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[inviteWay].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fdc.invite.InviteFormEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[inviteWay].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FInviteWay" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>inviteOrg</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[inviteOrg].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[inviteOrg].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FInviteOrgID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.contract.programming.app" />
+                <key name="name" value="R_ProgrammingContract_CostCenter_inviteOrg" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>buildPerSquare</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[buildPerSquare].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[buildPerSquare].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>20</precision>
+            <decimalDigits>8</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[buildPerSquare].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FBuildPerSquare" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>soldPerSquare</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[soldPerSquare].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[soldPerSquare].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>20</precision>
+            <decimalDigits>8</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[soldPerSquare].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSoldPerSquare" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>totalSplitAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[totalSplitAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[totalSplitAmount].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[totalSplitAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FTotalSplitAmount" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].alias">
+            <lang locale="zh_CN" value="框架合约" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="框架合約" />
+            <lang locale="zh_TW" value="框架合約" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].defaultViewalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].defaultViewdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[costEntries].alias">
+            <lang locale="zh_CN" value="成本构成" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="成本構成" />
+            <lang locale="zh_TW" value="成本構成" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[costEntries].description">
+            <lang locale="zh_CN" value="成本构成" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="成本構成" />
+            <lang locale="zh_TW" value="成本構成" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[economyEntries].alias">
+            <lang locale="zh_CN" value="经济条款" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="經濟條款" />
+            <lang locale="zh_TW" value="經濟條款" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[economyEntries].description">
+            <lang locale="zh_CN" value="经济条款" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="經濟條款" />
+            <lang locale="zh_TW" value="經濟條款" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[inviteOrg].alias">
+            <lang locale="zh_CN" value="招标组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標組織" />
+            <lang locale="zh_TW" value="招標組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[inviteOrg].description">
+            <lang locale="zh_CN" value="招标组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標組織" />
+            <lang locale="zh_TW" value="招標組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[parent].alias">
+            <lang locale="zh_CN" value="上级规划合约" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級規劃合約" />
+            <lang locale="zh_TW" value="上級規劃合約" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[parent].description">
+            <lang locale="zh_CN" value="上级规划合约" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級規劃合約" />
+            <lang locale="zh_TW" value="上級規劃合約" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[programming].alias">
+            <lang locale="zh_CN" value="项目合约规划" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目合約規劃" />
+            <lang locale="zh_TW" value="項目合約規劃" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.linkProperty[programming].description">
+            <lang locale="zh_CN" value="项目合约规划" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目合約規劃" />
+            <lang locale="zh_TW" value="項目合約規劃" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[amount].alias">
+            <lang locale="zh_CN" value="规划金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規劃金額" />
+            <lang locale="zh_TW" value="規劃金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[amount].defaultValue">
+            <lang locale="zh_CN" value="0" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[amount].description">
+            <lang locale="zh_CN" value="规划金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規劃金額" />
+            <lang locale="zh_TW" value="規劃金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[attachment].alias">
+            <lang locale="zh_CN" value="附件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件" />
+            <lang locale="zh_TW" value="附件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[attachment].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[attachment].description">
+            <lang locale="zh_CN" value="附件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件" />
+            <lang locale="zh_TW" value="附件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[balance].alias">
+            <lang locale="zh_CN" value="规划余额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規劃餘額" />
+            <lang locale="zh_TW" value="規劃餘額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[balance].defaultValue">
+            <lang locale="zh_CN" value="0" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[balance].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[buildPerSquare].alias">
+            <lang locale="zh_CN" value="建筑单方" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="建築單方" />
+            <lang locale="zh_TW" value="建築單方" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[buildPerSquare].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[buildPerSquare].description">
+            <lang locale="zh_CN" value="建筑单方=规划金额/总建筑面积" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="建築單方=規劃金額/總建築面積" />
+            <lang locale="zh_TW" value="建築單方=規劃金額/總建築面積" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[changeAmount].alias">
+            <lang locale="zh_CN" value="变更金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="變更金額" />
+            <lang locale="zh_TW" value="變更金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[changeAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[changeAmount].description">
+            <lang locale="zh_CN" value="变更金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="變更金額" />
+            <lang locale="zh_TW" value="變更金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[citeVersion].alias">
+            <lang locale="zh_CN" value="引用版本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="引用版本" />
+            <lang locale="zh_TW" value="引用版本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[citeVersion].defaultValue">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[citeVersion].description">
+            <lang locale="zh_CN" value="引用版本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="引用版本" />
+            <lang locale="zh_TW" value="引用版本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlAmount].alias">
+            <lang locale="zh_CN" value="控制金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制金額" />
+            <lang locale="zh_TW" value="控制金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlAmount].defaultValue">
+            <lang locale="zh_CN" value="0" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlAmount].description">
+            <lang locale="zh_CN" value="控制金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制金額" />
+            <lang locale="zh_TW" value="控制金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlBalance].alias">
+            <lang locale="zh_CN" value="控制余额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制餘額" />
+            <lang locale="zh_TW" value="控制餘額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlBalance].defaultValue">
+            <lang locale="zh_CN" value="0" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[controlBalance].description">
+            <lang locale="zh_CN" value="控制余额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制餘額" />
+            <lang locale="zh_TW" value="控制餘額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[inviteWay].alias">
+            <lang locale="zh_CN" value="招标方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標方式" />
+            <lang locale="zh_TW" value="招標方式" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[inviteWay].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[inviteWay].description">
+            <lang locale="zh_CN" value="招标方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標方式" />
+            <lang locale="zh_TW" value="招標方式" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[isCiting].alias">
+            <lang locale="zh_CN" value="是否被引用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否被引用" />
+            <lang locale="zh_TW" value="是否被引用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[isCiting].defaultValue">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[isCiting].description">
+            <lang locale="zh_CN" value="是否被引用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否被引用" />
+            <lang locale="zh_TW" value="是否被引用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[settleAmount].alias">
+            <lang locale="zh_CN" value="结算金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="結算金額" />
+            <lang locale="zh_TW" value="結算金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[settleAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[settleAmount].description">
+            <lang locale="zh_CN" value="结算金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="結算金額" />
+            <lang locale="zh_TW" value="結算金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[signUpAmount].alias">
+            <lang locale="zh_CN" value="签约金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="簽約金額" />
+            <lang locale="zh_TW" value="簽約金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[signUpAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[signUpAmount].description">
+            <lang locale="zh_CN" value="签约金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="簽約金額" />
+            <lang locale="zh_TW" value="簽約金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[soldPerSquare].alias">
+            <lang locale="zh_CN" value="可售单方" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="可售單方" />
+            <lang locale="zh_TW" value="可售單方" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[soldPerSquare].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[soldPerSquare].description">
+            <lang locale="zh_CN" value="可售单方=规划金额/可售面积" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="可售單方=規劃金額/可售面積" />
+            <lang locale="zh_TW" value="可售單方=規劃金額/可售面積" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[sortNumber].alias">
+            <lang locale="zh_CN" value="排序列" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="排序列" />
+            <lang locale="zh_TW" value="排序列" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[sortNumber].defaultValue">
+            <lang locale="zh_CN" value="0" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[sortNumber].description">
+            <lang locale="zh_CN" value="排序列" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="排序列" />
+            <lang locale="zh_TW" value="排序列" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[srcId].alias">
+            <lang locale="zh_CN" value="规划合约源ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規劃合約源ID" />
+            <lang locale="zh_TW" value="規劃合約源ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[srcId].defaultValue">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[srcId].description">
+            <lang locale="zh_CN" value="规划合约源ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規劃合約源ID" />
+            <lang locale="zh_TW" value="規劃合約源ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[supMaterial].alias">
+            <lang locale="zh_CN" value="甲供及甲指材设" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="甲供及甲指材設" />
+            <lang locale="zh_TW" value="甲供及甲指材設" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[supMaterial].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[supMaterial].description">
+            <lang locale="zh_CN" value="甲供及甲指材设" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="甲供及甲指材設" />
+            <lang locale="zh_TW" value="甲供及甲指材設" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[totalSplitAmount].alias">
+            <lang locale="zh_CN" value="累计分配" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="累計分配" />
+            <lang locale="zh_TW" value="累計分配" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[totalSplitAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[totalSplitAmount].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[workContent].alias">
+            <lang locale="zh_CN" value="工作内容" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工作內容" />
+            <lang locale="zh_TW" value="工作內容" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[workContent].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.contract.programming.app.ProgrammingContract].properties.ownProperty[workContent].description">
+            <lang locale="zh_CN" value="工作内容" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工作內容" />
+            <lang locale="zh_TW" value="工作內容" />
+        </rs>
+    </resource>
+</entityObject>
+

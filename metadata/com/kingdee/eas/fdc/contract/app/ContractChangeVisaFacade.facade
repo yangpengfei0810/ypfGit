@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.contract.app</package>
+    <name>ContractChangeVisaFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>39212A78</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.contract.ContractChangeVisaFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>saveCostAmountByChngSupEntyID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].description</description>
+            <innerID>909372f2-5e14-4b82-b98a-0ed1175090d2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[pk].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>amount</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[amount].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[amount].description</description>
+                    <direction>in</direction>
+                    <dataType>BigDecimal</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>saveCostAmountByChngAuditBillID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].description</description>
+            <innerID>1019a214-b9f4-4595-8d51-16076a6805ce</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].parameters.parameter[pk].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCostAmountByChngAuditBillID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].description</description>
+            <innerID>d8d353d3-73d1-4223-b90a-bc2472a31b90</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>RowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[pk].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>rmk</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[rmk].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[rmk].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getChngAuditBillNumber</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].description</description>
+            <innerID>e58b0712-bdf8-4743-b149-b99ce49a5d90</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>orgId</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[orgId].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[orgId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>prjId</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prjId].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prjId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>chngId</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[chngId].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[chngId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>prefix</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prefix].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prefix].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>executeUpdate</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].description</description>
+            <innerID>080bd620-f6da-49f1-84c3-7fed67b3f6aa</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>sql</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].parameters.parameter[sql].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].parameters.parameter[sql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>saveVisaAmountByChngAuditBillID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].description</description>
+            <innerID>226fdf24-bb3b-47ce-8a15-421636066a50</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].parameters.parameter[pk].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>unSaveCostAmountByChngAuditBillID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].description</description>
+            <innerID>68829f78-3c34-4c44-af9b-57741b59dfdc</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].parameters.parameter[pk].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>unSaveVisaAmountByChngAuditBillID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].description</description>
+            <innerID>6c2e2702-36d0-42f5-b820-f4e3d2d99052</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].parameters.parameter[pk].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>clearCode</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].description</description>
+            <innerID>52580613-4eaa-4dba-b89b-b73c053302e2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>prmStr</name>
+                    <alias>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].parameters.parameter[prmStr].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].parameters.parameter[prmStr].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同变更签证功能" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同变更签证功能，为了二次开发合同变更发起单，在列表中显示：预估金额、签证金额，及变更单号生成、变更单号清理等" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="清理编码" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="通过定时任务进行清理" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].parameters.parameter[prmStr].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备用参数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[clearCode].parameters.parameter[prmStr].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="执行更新" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].parameters.parameter[sql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="更新sql" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[executeUpdate].parameters.parameter[sql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取变更审批单单据编号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="按变更类型自动编号，并且进行不断号处理" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[chngId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="变更类型Id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[chngId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[orgId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组织ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[orgId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prefix].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="查询前缀" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prefix].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prjId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目工程Id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getChngAuditBillNumber].parameters.parameter[prjId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取预估金额和签证金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取预估金额和签证金额,两个字段各自的合计值" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[rmk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[getCostAmountByChngAuditBillID].parameters.parameter[rmk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存测试成本金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存测试成本金额，通过变更审批单ID保存测试成本金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngAuditBillID].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存测试成本金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存测试成本金额，通过变更审批单分录ID保存测试" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[amount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[amount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveCostAmountByChngSupEntyID].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存签证金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存签证金额，通过变更签证确认单ID保存签证金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="变更签证确认单id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[saveVisaAmountByChngAuditBillID].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="不保存预估金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审批时清除审批时保存的预估金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveCostAmountByChngAuditBillID].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="不保存签证金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核时，清除审核时保存的签证金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.contract.app.ContractChangeVisaFacade].methods.method[unSaveVisaAmountByChngAuditBillID].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

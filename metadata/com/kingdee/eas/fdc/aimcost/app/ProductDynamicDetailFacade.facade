@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>ProductDynamicDetailFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>5B3C1B52</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.aimcost.ProductDynamicDetailFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getProductTypes</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].description</description>
+            <innerID>17873f21-d1b1-40fb-9193-a7bb42de0567</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.fdc.basedata.ProductTypeCollection</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectIDs</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].parameters.parameter[projectIDs].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].parameters.parameter[projectIDs].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.Set</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getDetailData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].description</description>
+            <innerID>8e584bb8-75d2-4072-ae6c-748e8e06f63b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectIDs</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].parameters.parameter[projectIDs].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].parameters.parameter[projectIDs].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.Set</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getSplitAmount</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].description</description>
+            <innerID>b8c94ba2-57dc-4ccf-a51c-a2035879ea1c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>java.lang.String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].alias">
+            <lang locale="zh_CN" value="各产品类型动态成本明细表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="各產品類型動態成本明細表" />
+            <lang locale="zh_TW" value="各產品類型動態成本明細表" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].extendedProperty.controllerBeanEx">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacadeControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacadeControllerBeanEx" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacadeControllerBeanEx" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].alias">
+            <lang locale="zh_CN" value="获取明细数据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取明細數據" />
+            <lang locale="zh_TW" value="獲取明細數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].parameters.parameter[projectIDs].alias">
+            <lang locale="zh_CN" value="工程项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程項目ID" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getDetailData].parameters.parameter[projectIDs].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].alias">
+            <lang locale="zh_CN" value="获取产品类型的集合" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取產品類型的集合" />
+            <lang locale="zh_TW" value="獲取產品類型的集合" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].parameters.parameter[projectIDs].alias">
+            <lang locale="zh_CN" value="工程项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程項目ID" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getProductTypes].parameters.parameter[projectIDs].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].alias">
+            <lang locale="zh_CN" value="获取已发生、待发生分摊中分摊到相应产品类型的合计" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取已發生、待發生分攤中分攤到相應產品類型的合計" />
+            <lang locale="zh_TW" value="獲取已發生、待發生分攤中分攤到相應產品類型的合計" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="工程项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程項目ID" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProductDynamicDetailFacade].methods.method[getSplitAmount].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</facade>
+

@@ -1,0 +1,2164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.base.attachment.app</package>
+    <name>BoAttchAsso</name>
+    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].alias</alias>
+    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].description</description>
+    <userDefined>false</userDefined>
+    <bosType>172F3A47</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.base.attachment.BoAttchAsso</businessImplName>
+    <businessControllerName>com.kingdee.eas.base.attachment.app.BoAttchAssoController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00f7c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00f8c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00f9c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00fac0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00fbc0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>update</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00fcc0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updatePartial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00fdc0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updateBigObject</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00fec0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-00ffc0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0100c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0101c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0102c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>sorter</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[sorter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[sorter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SorterItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0103c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0104c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0105c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0106c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0107c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].description</description>
+            <innerID>c5cfc61b-0104-1000-e000-0108c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>arrayPK</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[arrayPK].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[arrayPK].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAttchIDsByBoID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].description</description>
+            <innerID>cc3f5ae3-0104-1000-e000-00e0c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getBoCountByAttchID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].description</description>
+            <innerID>cc3f5ae3-0104-1000-e000-00e2c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Integer</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>attchID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].parameters.parameter[attchID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].parameters.parameter[attchID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAttchCountByBoID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].description</description>
+            <innerID>cc3f5ae3-0104-1000-e000-00e5c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Integer</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>isAssociationExisted</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].description</description>
+            <innerID>cc3f5ae3-0104-1000-e000-00f2c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>attchID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[attchID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[attchID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>deleteOneAssociation</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].description</description>
+            <innerID>cc3f5ae3-0104-1000-e000-03ebc0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>attchID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[attchID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[attchID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>deleteAllAssociationsByBoID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].description</description>
+            <innerID>cc3f5ae3-0104-1000-e000-03eec0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAttachIDsByBOSType</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].description</description>
+            <innerID>2d0de90a-0105-1000-e000-0011c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>bosType</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].parameters.parameter[bosType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].parameters.parameter[bosType].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAttachIDsByBOSTypeAndBeginTime</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].description</description>
+            <innerID>2d0de90a-0105-1000-e000-0012c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>bosType</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[bosType].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[bosType].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>beginTime</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[beginTime].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[beginTime].description</description>
+                    <direction>in</direction>
+                    <dataType>TimeStamp</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addAssociations</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].description</description>
+            <innerID>3c0985c8-0105-1000-e000-002dc0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>attachIDs</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[attachIDs].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[attachIDs].description</description>
+                    <direction>in</direction>
+                    <dataType>String[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAttchIDsByBoIDAndCode</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].description</description>
+            <innerID>4d6b022e-0105-1000-e000-02e8c0a8128b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>code</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[code].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[code].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>deleteByBoList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].description</description>
+            <innerID>26c9a0c2-0108-1000-e000-0001c0a813d7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boIdList</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdList].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdList].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectCollection</dataType>
+                    <metadataRef>com.kingdee.eas.base.attachment.app.BoAttchAsso</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>deleteByBoList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].description</description>
+            <innerID>ff72f250-0108-1000-e000-0007c0a813d7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boIdAry</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdAry].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdAry].description</description>
+                    <direction>in</direction>
+                    <dataType>String[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAllBizOjbType</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAllBizOjbType].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAllBizOjbType].description</description>
+            <innerID>71367570-0108-1000-e000-0003c0a813d7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>isReference</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].description</description>
+            <innerID>b23f0fa6-0108-1000-e000-0001c0a813d7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boId</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[boId].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[boId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>attachmentId</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[attachmentId].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[attachmentId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>isMayEdit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].description</description>
+            <innerID>c26bf853-0108-1000-e000-0009c0a813d7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].description</description>
+            <innerID>ff72f250-0108-1000-e000-0006c0a813d7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>attachmentAssoInfoCol</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[attachmentAssoInfoCol].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[attachmentAssoInfoCol].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.List</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getFileCount</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].description</description>
+            <innerID>5aed48f9-010b-1000-e000-0006c0a81293</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Integer</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAttchIDsByBoID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].description</description>
+            <innerID>5549a6bb-c1c3-40cf-856d-7e6a3a973d0d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>String[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>boID</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[boID].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[boID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>isAsc</name>
+                    <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[isAsc].alias</alias>
+                    <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[isAsc].description</description>
+                    <direction>in</direction>
+                    <dataType>Boolean</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK />
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.base.attachment" />
+        <key name="name" value="T_BAS_BoAttchAsso" />
+    </table>
+    <properties>
+        <ownProperty>
+            <name>id</name>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[id].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[id].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BOSUuid</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[id].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>boID</name>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[boID].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[boID].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[boID].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FBoID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>assoType</name>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoType].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoType].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>true</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAssoType" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>attachment</name>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.linkProperty[attachment].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.linkProperty[attachment].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FAttachmentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.base.attachment.app" />
+                <key name="name" value="R_Attachment_BoAttchAsso" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>assoBusObjType</name>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoBusObjType].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoBusObjType].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoBusObjType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAssoBusObjType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>sourceBillID</name>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[sourceBillID].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[sourceBillID].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>50</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[sourceBillID].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFSourceBillID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>saveTime</name>
+            <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[saveTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[saveTime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>TimeStamp</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[saveTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFSaveTime" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].alias">
+            <lang locale="zh_CN" value="附件与业务对象关联" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件與業務對象關聯" />
+            <lang locale="zh_TW" value="附件與業務對象關聯" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].defaultViewalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].defaultViewdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].alias">
+            <lang locale="zh_CN" value="增加附件关联关系" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="增加附件關聯關係" />
+            <lang locale="zh_TW" value="增加附件關聯關係" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].description">
+            <lang locale="zh_CN" value="增加附件关联关系" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="增加附件關聯關係" />
+            <lang locale="zh_TW" value="增加附件關聯關係" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[attachIDs].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[attachIDs].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addAssociations].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].alias">
+            <lang locale="zh_CN" value="新增附件关联关系" />
+            <lang locale="en_US" value="addnew" />
+            <lang locale="zh_HK" value="新增附件關聯關係" />
+            <lang locale="zh_TW" value="新增附件關聯關係" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].description">
+            <lang locale="zh_CN" value="addnew" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="addnew" />
+            <lang locale="zh_TW" value="addnew" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[attachmentAssoInfoCol].alias">
+            <lang locale="zh_CN" value="attachmentAssoInfoCol" />
+            <lang locale="en_US" value="addnew" />
+            <lang locale="zh_HK" value="attachmentAssoInfoCol" />
+            <lang locale="zh_TW" value="attachmentAssoInfoCol" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[attachmentAssoInfoCol].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="新增" />
+            <lang locale="en_US" value="addnew" />
+            <lang locale="zh_HK" value="新增" />
+            <lang locale="zh_TW" value="新增" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="新增" />
+            <lang locale="en_US" value="addnew" />
+            <lang locale="zh_HK" value="新增" />
+            <lang locale="zh_TW" value="新增" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[addnew].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].alias">
+            <lang locale="zh_CN" value="删除业务对象对应的所有附件关联" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除業務對象對應的所有附件關聯" />
+            <lang locale="zh_TW" value="刪除業務對象對應的所有附件關聯" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].description">
+            <lang locale="zh_CN" value="删除业务对象对应的所有附件关联" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除業務對象對應的所有附件關聯" />
+            <lang locale="zh_TW" value="刪除業務對象對應的所有附件關聯" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteAllAssociationsByBoID].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].alias">
+            <lang locale="zh_CN" value="根据关联的id删除附件的关联信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="根據關聯的id刪除附件的關聯信息" />
+            <lang locale="zh_TW" value="根據關聯的id刪除附件的關聯信息" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].description">
+            <lang locale="zh_CN" value="根据关联的id删除附件的关联信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="根據關聯的id刪除附件的關聯信息" />
+            <lang locale="zh_TW" value="根據關聯的id刪除附件的關聯信息" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdAry].alias">
+            <lang locale="zh_CN" value="boIdAry" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="boIdAry" />
+            <lang locale="zh_TW" value="boIdAry" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdAry].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdList].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteByBoList].parameters.parameter[boIdList].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].alias">
+            <lang locale="zh_CN" value="删除附件关联关系" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除附件關聯關係" />
+            <lang locale="zh_TW" value="刪除附件關聯關係" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].description">
+            <lang locale="zh_CN" value="删除附件关联关系" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除附件關聯關係" />
+            <lang locale="zh_TW" value="刪除附件關聯關係" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[attchID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[attchID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[deleteOneAssociation].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].alias">
+            <lang locale="zh_CN" value="删除附件关联关系" />
+            <lang locale="en_US" value="delete" />
+            <lang locale="zh_HK" value="刪除附件關聯關係" />
+            <lang locale="zh_TW" value="刪除附件關聯關係" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[arrayPK].alias">
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="en_US" value="delete" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[arrayPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[filter].alias">
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="en_US" value="delete" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[filter].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="en_US" value="delete" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="en_US" value="delete" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[delete].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAllBizOjbType].alias">
+            <lang locale="zh_CN" value="获得所有的业务对象类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲得所有的業務對象類型" />
+            <lang locale="zh_TW" value="獲得所有的業務對象類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAllBizOjbType].description">
+            <lang locale="zh_CN" value="获得所有的业务对象类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲得所有的業務對象類型" />
+            <lang locale="zh_TW" value="獲得所有的業務對象類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].alias">
+            <lang locale="zh_CN" value="业务类型和创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務類型和創建時間" />
+            <lang locale="zh_TW" value="業務類型和創建時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].description">
+            <lang locale="zh_CN" value="业务类型和创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務類型和創建時間" />
+            <lang locale="zh_TW" value="業務類型和創建時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[beginTime].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[beginTime].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[bosType].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSTypeAndBeginTime].parameters.parameter[bosType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].alias">
+            <lang locale="zh_CN" value="附件id取得业务类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件id取得業務類型" />
+            <lang locale="zh_TW" value="附件id取得業務類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].description">
+            <lang locale="zh_CN" value="附件id取得业务类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件id取得業務類型" />
+            <lang locale="zh_TW" value="附件id取得業務類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].parameters.parameter[bosType].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttachIDsByBOSType].parameters.parameter[bosType].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].alias">
+            <lang locale="zh_CN" value="附件总和业务id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件總和業務id" />
+            <lang locale="zh_TW" value="附件總和業務id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].description">
+            <lang locale="zh_CN" value="附件总和业务id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件總和業務id" />
+            <lang locale="zh_TW" value="附件總和業務id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchCountByBoID].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].alias">
+            <lang locale="zh_CN" value="业务id和编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務id和編碼" />
+            <lang locale="zh_TW" value="業務id和編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].description">
+            <lang locale="zh_CN" value="业务id和编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務id和編碼" />
+            <lang locale="zh_TW" value="業務id和編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[code].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoIDAndCode].parameters.parameter[code].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].alias">
+            <lang locale="zh_CN" value="附件id取得业务id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件id取得業務id" />
+            <lang locale="zh_TW" value="附件id取得業務id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].description">
+            <lang locale="zh_CN" value="附件id取得业务id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件id取得業務id" />
+            <lang locale="zh_TW" value="附件id取得業務id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[isAsc].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getAttchIDsByBoID].parameters.parameter[isAsc].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].alias">
+            <lang locale="zh_CN" value="业务总和的附件id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務總和的附件id" />
+            <lang locale="zh_TW" value="業務總和的附件id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].description">
+            <lang locale="zh_CN" value="业务总和的附件id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務總和的附件id" />
+            <lang locale="zh_TW" value="業務總和的附件id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].parameters.parameter[attchID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getBoCountByAttchID].parameters.parameter[attchID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].alias">
+            <lang locale="zh_CN" value="获得附件的数量" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲得附件的數量" />
+            <lang locale="zh_TW" value="獲得附件的數量" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].description">
+            <lang locale="zh_CN" value="根据指定的条件查询附件的数量" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="根據指定的條件查詢附件的數量" />
+            <lang locale="zh_TW" value="根據指定的條件查詢附件的數量" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="boID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="boID" />
+            <lang locale="zh_TW" value="boID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getFileCount].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="业务对象id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務對象id" />
+            <lang locale="zh_TW" value="業務對象id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].alias">
+            <lang locale="zh_CN" value="取主键" />
+            <lang locale="en_US" value="getPKList" />
+            <lang locale="zh_HK" value="取主鍵" />
+            <lang locale="zh_TW" value="取主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[filter].alias">
+            <lang locale="zh_CN" value="取主键" />
+            <lang locale="en_US" value="getPKList" />
+            <lang locale="zh_HK" value="取主鍵" />
+            <lang locale="zh_TW" value="取主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[filter].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取主键" />
+            <lang locale="en_US" value="getPKList" />
+            <lang locale="zh_HK" value="取主鍵" />
+            <lang locale="zh_TW" value="取主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[sorter].alias">
+            <lang locale="zh_CN" value="取主键" />
+            <lang locale="en_US" value="getPKList" />
+            <lang locale="zh_HK" value="取主鍵" />
+            <lang locale="zh_TW" value="取主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getPKList].parameters.parameter[sorter].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].alias">
+            <lang locale="zh_CN" value="是否关联" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否關聯" />
+            <lang locale="zh_TW" value="是否關聯" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].description">
+            <lang locale="zh_CN" value="是否关联" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否關聯" />
+            <lang locale="zh_TW" value="是否關聯" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[attchID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[attchID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isAssociationExisted].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].alias">
+            <lang locale="zh_CN" value="子业务系统对应的业务对象的id能否可以修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="子業務系統對應的業務對象的id能否可以修改" />
+            <lang locale="zh_TW" value="子業務系統對應的業務對象的id能否可以修改" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].description">
+            <lang locale="zh_CN" value="子业务系统对应的业务对象的id能否可以修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="子業務系統對應的業務對象的id能否可以修改" />
+            <lang locale="zh_TW" value="子業務系統對應的業務對象的id能否可以修改" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].parameters.parameter[boID].alias">
+            <lang locale="zh_CN" value="boID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="boID" />
+            <lang locale="zh_TW" value="boID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isMayEdit].parameters.parameter[boID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].alias">
+            <lang locale="zh_CN" value="除去指定的业务对象的id后是否被其他的业务对象所应用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="除去指定的業務對象的id後是否被其他的業務對象所應用" />
+            <lang locale="zh_TW" value="除去指定的業務對象的id後是否被其他的業務對象所應用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].description">
+            <lang locale="zh_CN" value="除去指定的业务对象的id后是否被其他的业务对象所应用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="除去指定的業務對象的id後是否被其他的業務對象所應用" />
+            <lang locale="zh_TW" value="除去指定的業務對象的id後是否被其他的業務對象所應用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[attachmentId].alias">
+            <lang locale="zh_CN" value="attachmentId" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="attachmentId" />
+            <lang locale="zh_TW" value="attachmentId" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[attachmentId].description">
+            <lang locale="zh_CN" value="附件的id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件的id" />
+            <lang locale="zh_TW" value="附件的id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[boId].alias">
+            <lang locale="zh_CN" value="boId" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="boId" />
+            <lang locale="zh_TW" value="boId" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[isReference].parameters.parameter[boId].description">
+            <lang locale="zh_CN" value="业务对象的id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務對象的id" />
+            <lang locale="zh_TW" value="業務對象的id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].alias">
+            <lang locale="zh_CN" value="更新大对象" />
+            <lang locale="en_US" value="updateBigObject" />
+            <lang locale="zh_HK" value="更新大對象" />
+            <lang locale="zh_TW" value="更新大對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="更新大对象" />
+            <lang locale="en_US" value="updateBigObject" />
+            <lang locale="zh_HK" value="更新大對象" />
+            <lang locale="zh_TW" value="更新大對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="更新大对象" />
+            <lang locale="en_US" value="updateBigObject" />
+            <lang locale="zh_HK" value="更新大對象" />
+            <lang locale="zh_TW" value="更新大對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updateBigObject].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].alias">
+            <lang locale="zh_CN" value="局部更新" />
+            <lang locale="en_US" value="updatePartial" />
+            <lang locale="zh_HK" value="局部更新" />
+            <lang locale="zh_TW" value="局部更新" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="局部更新" />
+            <lang locale="en_US" value="updatePartial" />
+            <lang locale="zh_HK" value="局部更新" />
+            <lang locale="zh_TW" value="局部更新" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="局部更新" />
+            <lang locale="en_US" value="updatePartial" />
+            <lang locale="zh_HK" value="局部更新" />
+            <lang locale="zh_TW" value="局部更新" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[updatePartial].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].alias">
+            <lang locale="zh_CN" value="更新" />
+            <lang locale="en_US" value="update" />
+            <lang locale="zh_HK" value="更新" />
+            <lang locale="zh_TW" value="更新" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="更新" />
+            <lang locale="en_US" value="update" />
+            <lang locale="zh_HK" value="更新" />
+            <lang locale="zh_TW" value="更新" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="更新" />
+            <lang locale="en_US" value="update" />
+            <lang locale="zh_HK" value="更新" />
+            <lang locale="zh_TW" value="更新" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].methods.method[update].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.linkProperty[attachment].alias">
+            <lang locale="zh_CN" value="附件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件" />
+            <lang locale="zh_TW" value="附件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.linkProperty[attachment].description">
+            <lang locale="zh_CN" value="附件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件" />
+            <lang locale="zh_TW" value="附件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoBusObjType].alias">
+            <lang locale="zh_CN" value="关联业务对象的类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="關聯業務對象的類型" />
+            <lang locale="zh_TW" value="關聯業務對象的類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoBusObjType].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoBusObjType].description">
+            <lang locale="zh_CN" value="关联业务对象的类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="關聯業務對象的類型" />
+            <lang locale="zh_TW" value="關聯業務對象的類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoType].alias">
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="類型" />
+            <lang locale="zh_TW" value="類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoType].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[assoType].description">
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="類型" />
+            <lang locale="zh_TW" value="類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[boID].alias">
+            <lang locale="zh_CN" value="业务id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務id" />
+            <lang locale="zh_TW" value="業務id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[boID].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[boID].description">
+            <lang locale="zh_CN" value="业务id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務id" />
+            <lang locale="zh_TW" value="業務id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[id].alias">
+            <lang locale="zh_CN" value="唯一标识" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="唯一標識" />
+            <lang locale="zh_TW" value="唯一標識" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[id].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[id].description">
+            <lang locale="zh_CN" value="唯一标识" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="唯一標識" />
+            <lang locale="zh_TW" value="唯一標識" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[saveTime].alias">
+            <lang locale="zh_CN" value="保存时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="保存時間" />
+            <lang locale="zh_TW" value="保存時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[saveTime].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[saveTime].description">
+            <lang locale="zh_CN" value="保存时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="保存時間" />
+            <lang locale="zh_TW" value="保存時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[sourceBillID].alias">
+            <lang locale="zh_CN" value="源单据id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="源單據id" />
+            <lang locale="zh_TW" value="源單據id" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[sourceBillID].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.base.attachment.app.BoAttchAsso].properties.ownProperty[sourceBillID].description">
+            <lang locale="zh_CN" value="源单据id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="源單據id" />
+            <lang locale="zh_TW" value="源單據id" />
+        </rs>
+    </resource>
+</entityObject>
+

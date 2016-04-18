@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.contract.programming.app</package>
+    <name>T_CON_ProgrammingContract</name>
+    <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FProgrammingID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FProgrammingID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FProgrammingID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FParentID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FControlAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FBalance</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBalance].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBalance].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FControlBalance</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlBalance].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlBalance].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FSignUpAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSignUpAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSignUpAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FChangeAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FChangeAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FChangeAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FSettleAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSettleAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSettleAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FIsCiting</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsCiting].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsCiting].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FCiteVersion</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCiteVersion].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCiteVersion].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FSrcId</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSrcId].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSrcId].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FIsLeaf</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsLeaf].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsLeaf].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FLevel</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLevel].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLevel].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FLongNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLongNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLongNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDisplayName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDisplayName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDisplayName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDescription].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>1024</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSimpleName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSimpleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSimpleName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreatorID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAttachment</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAttachment].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAttachment].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSortNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSortNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSortNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FWorkContent</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FWorkContent].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FWorkContent].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>1024</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSupMaterial</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSupMaterial].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSupMaterial].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>1024</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FInviteWay</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteWay].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteWay].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>40</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FInviteOrgID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteOrgID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteOrgID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>40</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBuildPerSquare</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBuildPerSquare].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBuildPerSquare].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>0</length>
+            <scale>8</scale>
+            <precision>20</precision>
+        </column>
+        <column>
+            <name>FSoldPerSquare</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSoldPerSquare].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSoldPerSquare].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>0</length>
+            <scale>8</scale>
+            <precision>20</precision>
+        </column>
+        <column>
+            <name>FTotalSplitAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FTotalSplitAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FTotalSplitAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_ProgrammingCont</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAmount].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAmount].description">
+            <lang locale="zh_CN" value="规划金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規劃金額" />
+            <lang locale="zh_TW" value="規劃金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAttachment].alias">
+            <lang locale="zh_CN" value="附件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件" />
+            <lang locale="zh_TW" value="附件" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FAttachment].description">
+            <lang locale="zh_CN" value="附件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件" />
+            <lang locale="zh_TW" value="附件" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBalance].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBalance].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBuildPerSquare].alias">
+            <lang locale="zh_CN" value="建筑单方" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="建築單方" />
+            <lang locale="zh_TW" value="建築單方" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FBuildPerSquare].description">
+            <lang locale="zh_CN" value="建筑单方" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="建築單方" />
+            <lang locale="zh_TW" value="建築單方" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FChangeAmount].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FChangeAmount].description">
+            <lang locale="zh_CN" value="变更金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="變更金額" />
+            <lang locale="zh_TW" value="變更金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCiteVersion].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCiteVersion].description">
+            <lang locale="zh_CN" value="引用版本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="引用版本" />
+            <lang locale="zh_TW" value="引用版本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlAmount].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlAmount].description">
+            <lang locale="zh_CN" value="控制金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制金額" />
+            <lang locale="zh_TW" value="控制金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlBalance].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlBalance].description">
+            <lang locale="zh_CN" value="控制余额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制餘額" />
+            <lang locale="zh_TW" value="控制餘額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlUnitID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FControlUnitID].description">
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreateTime].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreateTime].description">
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreatorID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FCreatorID].description">
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDescription].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDescription].description">
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDisplayName].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FDisplayName].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteOrgID].alias">
+            <lang locale="zh_CN" value="招标组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標組織" />
+            <lang locale="zh_TW" value="招標組織" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteOrgID].description">
+            <lang locale="zh_CN" value="招标组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標組織" />
+            <lang locale="zh_TW" value="招標組織" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteWay].alias">
+            <lang locale="zh_CN" value="招标方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標方式" />
+            <lang locale="zh_TW" value="招標方式" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FInviteWay].description">
+            <lang locale="zh_CN" value="招标方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="招標方式" />
+            <lang locale="zh_TW" value="招標方式" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsCiting].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsCiting].description">
+            <lang locale="zh_CN" value="是否被引用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否被引用" />
+            <lang locale="zh_TW" value="是否被引用" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsLeaf].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FIsLeaf].description">
+            <lang locale="zh_CN" value="是否叶子节点" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否葉子節點" />
+            <lang locale="zh_TW" value="是否葉子節點" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateTime].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateTime].description">
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateUserID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLastUpdateUserID].description">
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLevel].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLevel].description">
+            <lang locale="zh_CN" value="级次" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="級次" />
+            <lang locale="zh_TW" value="級次" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLongNumber].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FLongNumber].description">
+            <lang locale="zh_CN" value="长编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="長編碼" />
+            <lang locale="zh_TW" value="長編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FName].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FName].description">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FNumber].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FNumber].description">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FParentID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FParentID].description">
+            <lang locale="zh_CN" value="上级规划合约" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="上級規劃合約" />
+            <lang locale="zh_TW" value="上級規劃合約" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FProgrammingID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FProgrammingID].description">
+            <lang locale="zh_CN" value="项目合约规划" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目合約規劃" />
+            <lang locale="zh_TW" value="項目合約規劃" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSettleAmount].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSettleAmount].description">
+            <lang locale="zh_CN" value="结算金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="結算金額" />
+            <lang locale="zh_TW" value="結算金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSignUpAmount].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSignUpAmount].description">
+            <lang locale="zh_CN" value="签约金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="簽約金額" />
+            <lang locale="zh_TW" value="簽約金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSimpleName].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSimpleName].description">
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSoldPerSquare].alias">
+            <lang locale="zh_CN" value="可售单方" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="可售單方" />
+            <lang locale="zh_TW" value="可售單方" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSoldPerSquare].description">
+            <lang locale="zh_CN" value="可售单方" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="可售單方" />
+            <lang locale="zh_TW" value="可售單方" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSortNumber].alias">
+            <lang locale="zh_CN" value="排序列" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="排序列" />
+            <lang locale="zh_TW" value="排序列" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSortNumber].description">
+            <lang locale="zh_CN" value="排序列" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="排序列" />
+            <lang locale="zh_TW" value="排序列" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSrcId].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSrcId].description">
+            <lang locale="zh_CN" value="规划合约源ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="規劃合約源ID" />
+            <lang locale="zh_TW" value="規劃合約源ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSupMaterial].alias">
+            <lang locale="zh_CN" value="甲供及甲指材设" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="甲供及甲指材設" />
+            <lang locale="zh_TW" value="甲供及甲指材設" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FSupMaterial].description">
+            <lang locale="zh_CN" value="甲供及甲指材设" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="甲供及甲指材設" />
+            <lang locale="zh_TW" value="甲供及甲指材設" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FTotalSplitAmount].alias">
+            <lang locale="zh_CN" value="累计分配" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="累計分配" />
+            <lang locale="zh_TW" value="累計分配" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FTotalSplitAmount].description">
+            <lang locale="zh_CN" value="累计分配金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="累計分配金額" />
+            <lang locale="zh_TW" value="累計分配金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FWorkContent].alias">
+            <lang locale="zh_CN" value="工作内容" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工作內容" />
+            <lang locale="zh_TW" value="工作內容" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].columns.column[FWorkContent].description">
+            <lang locale="zh_CN" value="工作内容" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工作內容" />
+            <lang locale="zh_TW" value="工作內容" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.contract.programming.app.T_CON_ProgrammingContract].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

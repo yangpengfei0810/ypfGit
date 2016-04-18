@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>DynCostDetailFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>4FB7D69A</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.aimcost.DynCostDetailFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>saveDynCostDetailData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].description</description>
+            <innerID>041506df-56d2-486d-8f05-8af58ab86b7d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>dynCostDetailDataCollection</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailDataCollection].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailDataCollection].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.eas.fdc.aimcost.DynCostDetailDataCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>dynCostDetailInfo</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailInfo].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailInfo].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.eas.fdc.aimcost.DynCostDetailInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getDynCostDetailData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].description</description>
+            <innerID>446215ea-8f12-4866-94d5-d010806f856c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.jdbc.rowset.IRowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>curProjectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].parameters.parameter[curProjectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].parameters.parameter[curProjectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getDetailDataForID</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].description</description>
+            <innerID>3fbc3698-167c-425b-918e-c9ef08e66bef</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.jdbc.rowset.IRowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>parentID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].parameters.parameter[parentID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].parameters.parameter[parentID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getMaxVer</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].description</description>
+            <innerID>d4fdaed5-79ee-4d1b-8f6f-e22c12f100bc</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>BigDecimal</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>curProjectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].parameters.parameter[curProjectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].parameters.parameter[curProjectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getSumLastCost</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].description</description>
+            <innerID>a16c4792-99d4-42dc-bb84-230de663632e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>curProjectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].parameters.parameter[curProjectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].parameters.parameter[curProjectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getSumLastCostForSave</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].description</description>
+            <innerID>ad63a6cb-9181-4db4-9e16-5e5df609d072</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>parentID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].parameters.parameter[parentID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].parameters.parameter[parentID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getpayRequest</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].description</description>
+            <innerID>63e6d029-ec24-446c-b11f-a7a66753a767</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>contractid</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[contractid].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[contractid].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>pcid</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[pcid].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[pcid].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="动态成本明细功能" />
+            <lang locale="zh_TW" value="動態成本明細功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].extendedProperty.controllerBeanEx">
+            <lang locale="en_US" value="com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacadeControllerBeanEx" />
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacadeControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacadeControllerBeanEx" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="根据ID获取已经保存过的数据" />
+            <lang locale="zh_TW" value="根據ID獲取已經保存過的數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].parameters.parameter[parentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDetailDataForID].parameters.parameter[parentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取报表数据" />
+            <lang locale="zh_TW" value="獲取報表數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value=" " />
+            <lang locale="zh_TW" value=" " />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].parameters.parameter[curProjectID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工程项目ID" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getDynCostDetailData].parameters.parameter[curProjectID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="返回最大的版本号" />
+            <lang locale="zh_TW" value="返回最大的版本號" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].parameters.parameter[curProjectID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前工程项目ID" />
+            <lang locale="zh_TW" value="當前工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getMaxVer].parameters.parameter[curProjectID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取最新造价" />
+            <lang locale="zh_TW" value="獲取最新造價" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="以框架合约为维度获取保存后的最新造价" />
+            <lang locale="zh_TW" value="以框架合約為維度獲取保存後的最新造價" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].parameters.parameter[parentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCostForSave].parameters.parameter[parentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取框架合约对应合同的最新造价" />
+            <lang locale="zh_TW" value="獲取框架合約對應合同的最新造價" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="當框架合約對應多個合同時，把合同的簽約金額、實際承包金額、暫列金額、變更金額、結算金額、最新造價匯總" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].parameters.parameter[curProjectID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工程项目ID" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getSumLastCost].parameters.parameter[curProjectID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取付款单累计金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="累计申请，累计实付" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[contractid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[contractid].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[pcid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="框架合约id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[getpayRequest].parameters.parameter[pcid].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="保存动态成本明细数据" />
+            <lang locale="zh_TW" value="保存動態成本明細數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailDataCollection].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="动态成本明细数据集合" />
+            <lang locale="zh_TW" value="動態成本明細數據集合" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailDataCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="引用版本信息" />
+            <lang locale="zh_TW" value="引用版本信息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.DynCostDetailFacade].methods.method[saveDynCostDetailData].parameters.parameter[dynCostDetailInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

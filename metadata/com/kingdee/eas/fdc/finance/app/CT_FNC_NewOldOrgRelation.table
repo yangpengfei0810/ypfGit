@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance.app</package>
+    <name>CT_FNC_NewOldOrgRelation</name>
+    <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFOldOrg</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFOldOrg].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFOldOrg].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFNewOrg</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFNewOrg].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFNewOrg].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSeq</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FSeq].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>0</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFRemark</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFRemark].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFRemark].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_NOORGRELAFID</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新旧帐套组织映射关系表" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFNewOrg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新帐套组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFNewOrg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFOldOrg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="老帐套组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFOldOrg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFRemark].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[CFRemark].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="FID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FSeq].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="序号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].columns.column[FSeq].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新旧帐套组织映射关系表" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_NewOldOrgRelation].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</dataTable>
+

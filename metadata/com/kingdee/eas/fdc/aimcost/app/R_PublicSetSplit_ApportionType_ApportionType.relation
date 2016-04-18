@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>R_PublicSetSplit_ApportionType_ApportionType</name>
+    <alias>relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_ApportionType_ApportionType].alias</alias>
+    <description>relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_ApportionType_ApportionType].description</description>
+    <userDefined>true</userDefined>
+    <type>Association</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+        <key name="name" value="PublicSetSplit" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+        <key name="name" value="ApportionType" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_ApportionType_ApportionType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已发生分摊类型F7" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_ApportionType_ApportionType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="已发生分摊类型F7" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_ApportionType_ApportionType].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</relationship>
+

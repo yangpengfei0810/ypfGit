@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>R_PublicSetSplit_Product_product</name>
+    <alias>relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_Product_product].alias</alias>
+    <description>relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_Product_product].description</description>
+    <userDefined>true</userDefined>
+    <type>Association</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+        <key name="name" value="PublicSetSplit" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+        <key name="name" value="ProductType" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_Product_product].alias">
+            <lang locale="zh_CN" value="公共配套-产品类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="公共配套-產品類型" />
+            <lang locale="zh_TW" value="公共配套-產品類型" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_Product_product].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicSetSplit_Product_product].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</relationship>
+

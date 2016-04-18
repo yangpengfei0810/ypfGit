@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance</package>
+    <name>OtherPayment</name>
+    <alias>bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].alias</alias>
+    <description>bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.fdc.finance.app.OtherPayment</entityPK>
+    <queryPK>com.kingdee.eas.fdc.finance.app.OtherPaymentQuery</queryPK>
+    <editUIPK>com.kingdee.eas.fdc.finance.client.OtherPaymentEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.fdc.finance.client.OtherPaymentListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK>com.kingdee.eas.fdc.finance.app.OtherPaymentEditUIFunction</editUIFunctionPK>
+    <listUIFunctionPK>com.kingdee.eas.fdc.finance.app.OtherPaymentListUIFunction</listUIFunctionPK>
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它付款单" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它付款单" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.configured">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.fdc.finance.app.OtherPaymentQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.finance.app.OtherPaymentQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.finance.app.OtherPaymentQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.fdc.finance.client.OtherPaymentEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.finance.client.OtherPaymentEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.finance.client.OtherPaymentEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.fdc.finance.client.OtherPaymentListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.finance.client.OtherPaymentListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.finance.client.OtherPaymentListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="30" />
+            <lang locale="zh_CN" value="30" />
+            <lang locale="zh_TW" value="30" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.useTableEditUI">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.finance.OtherPayment].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

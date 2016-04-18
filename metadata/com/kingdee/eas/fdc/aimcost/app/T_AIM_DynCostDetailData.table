@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>T_AIM_DynCostDetailData</name>
+    <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FParentID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FProgrammingContractID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FProgrammingContractID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FProgrammingContractID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FContractID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FPromAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FState</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FState].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FState].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FContractAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FActualContractingAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FActualContractingAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FActualContractingAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FTempAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTempAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTempAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FChangeAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FChangeAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FChangeAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FBalanceAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FBalanceAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FBalanceAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FLatestCost</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLatestCost].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLatestCost].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FPromBalance</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromBalance].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromBalance].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FNeedSpending</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FNeedSpending].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FNeedSpending].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FDynamicCostOneAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostOneAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostOneAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FCostDiffOneAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffOneAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffOneAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FTargetCostDiffOneRate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffOneRate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffOneRate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FAdjustmentDiff</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FAdjustmentDiff].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FAdjustmentDiff].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FDynamicCostTwoAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostTwoAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostTwoAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FCostDiffTwoAmount</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffTwoAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffTwoAmount].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FTargetCostDiffTwoRate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffTwoRate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffTwoRate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FRemark</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FRemark].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FRemark].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>200</length>
+            <scale>0</scale>
+            <precision>200</precision>
+        </column>
+        <column>
+            <name>FLevel</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLevel].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLevel].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FCumulativeCashOut</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeCashOut].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeCashOut].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FCumulativeActuallyPaid</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeActuallyPaid].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeActuallyPaid].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FContractParty</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractParty].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractParty].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>FContractPartyC</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractPartyC].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractPartyC].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_DynCostDetailDa</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_AIM_DynCDDArnt</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="T_AIM_DynCostDetail" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FParentID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="动态成本明细数据存储" />
+            <lang locale="zh_TW" value="動態成本明細數據存儲" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FActualContractingAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际承包金额" />
+            <lang locale="zh_TW" value="實際承包金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FActualContractingAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FAdjustmentDiff].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调差" />
+            <lang locale="zh_TW" value="調差" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FAdjustmentDiff].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FBalanceAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结算金额" />
+            <lang locale="zh_TW" value="結算金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FBalanceAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FChangeAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="变更金额" />
+            <lang locale="zh_TW" value="變更金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FChangeAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="签约金额" />
+            <lang locale="zh_TW" value="簽約金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同ID" />
+            <lang locale="zh_TW" value="合同ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractPartyC].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同丙方" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractPartyC].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractParty].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同乙方" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FContractParty].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffOneAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本差额（不含调差）" />
+            <lang locale="zh_TW" value="成本差額（不含調差）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffOneAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffTwoAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="成本差额（含调差）" />
+            <lang locale="zh_TW" value="成本差額（含調差）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCostDiffTwoAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeActuallyPaid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="累计实付" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeActuallyPaid].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeCashOut].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="累计请款" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FCumulativeCashOut].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostOneAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="动态成本小计（不含调差）" />
+            <lang locale="zh_TW" value="動態成本小計（不含調差）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostOneAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostTwoAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="动态成本小计（含调差）" />
+            <lang locale="zh_TW" value="動態成本小計（含調差）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FDynamicCostTwoAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLatestCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最新造价" />
+            <lang locale="zh_TW" value="最新造價" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLatestCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLevel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="级次" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FLevel].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FNeedSpending].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="尚需支出" />
+            <lang locale="zh_TW" value="尚需支出" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FNeedSpending].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FParentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FParentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FProgrammingContractID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="框架合约ID" />
+            <lang locale="zh_TW" value="框架合約ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FProgrammingContractID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="规划金额" />
+            <lang locale="zh_TW" value="規劃金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromBalance].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="规划余额" />
+            <lang locale="zh_TW" value="規劃餘額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FPromBalance].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FRemark].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FRemark].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FState].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FState].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffOneRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="目标成本偏差率" />
+            <lang locale="zh_TW" value="目標成本偏差率" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffOneRate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffTwoRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="目标成本偏差率（含调差）" />
+            <lang locale="zh_TW" value="目標成本偏差率（含調差）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTargetCostDiffTwoRate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTempAmount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="暂列金额" />
+            <lang locale="zh_TW" value="暫列金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].columns.column[FTempAmount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_DynCostDetailData].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

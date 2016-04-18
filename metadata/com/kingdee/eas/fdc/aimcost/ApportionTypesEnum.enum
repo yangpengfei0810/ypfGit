@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost</package>
+    <name>ApportionTypesEnum</name>
+    <alias>bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.fdc.aimcost.ApportionTypesEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>BYCUSTOM</name>
+            <alias>bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYCUSTOM].alias</alias>
+            <userDefined>true</userDefined>
+            <value>1</value>
+        </enumValue>
+        <enumValue>
+            <name>BYBUILDAREA</name>
+            <alias>bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYBUILDAREA].alias</alias>
+            <userDefined>true</userDefined>
+            <value>2</value>
+        </enumValue>
+        <enumValue>
+            <name>BYSELLAREA</name>
+            <alias>bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYSELLAREA].alias</alias>
+            <userDefined>true</userDefined>
+            <value>3</value>
+        </enumValue>
+        <enumValue>
+            <name>BYCONTAINAREA</name>
+            <alias>bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYCONTAINAREA].alias</alias>
+            <userDefined>true</userDefined>
+            <value>4</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].alias">
+            <lang locale="zh_CN" value="分摊方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分攤方式" />
+            <lang locale="zh_TW" value="分攤方式" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].description">
+            <lang locale="zh_CN" value="分摊方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分攤方式" />
+            <lang locale="zh_TW" value="分攤方式" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYBUILDAREA].alias">
+            <lang locale="zh_CN" value="建筑面积" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="建築面積" />
+            <lang locale="zh_TW" value="建築面積" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYCONTAINAREA].alias">
+            <lang locale="zh_CN" value="占地面积" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="占地面積" />
+            <lang locale="zh_TW" value="占地面積" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYCUSTOM].alias">
+            <lang locale="zh_CN" value="指定分摊" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="指定分攤" />
+            <lang locale="zh_TW" value="指定分攤" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].enumValues.enumValue[BYSELLAREA].alias">
+            <lang locale="zh_CN" value="可售面积" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="可售面積" />
+            <lang locale="zh_TW" value="可售面積" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.fdc.aimcost.ApportionTypesEnum].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

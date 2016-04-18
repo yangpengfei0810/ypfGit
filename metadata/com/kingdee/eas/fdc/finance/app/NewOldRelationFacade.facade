@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance.app</package>
+    <name>NewOldRelationFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>775FC58C</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.finance.NewOldRelationFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.finance.app.NewOldRelationFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getOldOrgRelation</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].description</description>
+            <innerID>152ee70e-f96e-4a19-be33-394930f5cd37</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>treeID</name>
+                    <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].parameters.parameter[treeID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].parameters.parameter[treeID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>importGroupAccountRelation</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].description</description>
+            <innerID>e721dc17-4425-4df9-a3a4-7ed429ba4111</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>company</name>
+                    <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].parameters.parameter[company].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].parameters.parameter[company].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>dispose</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].description</description>
+            <innerID>ecec7c8e-b7ba-40a9-84c0-6103aa247b29</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>paymentBillInfo</name>
+                    <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[paymentBillInfo].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[paymentBillInfo].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fi.cas.app.PaymentBill</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>disposerActionEnum</name>
+                    <alias>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[disposerActionEnum].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[disposerActionEnum].description</description>
+                    <direction>in</direction>
+                    <dataType>Enum</dataType>
+                    <metadataRef>com.kingdee.eas.fi.cas.DisposerActionEnum</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新旧帐套映射关系处理功能" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="断开关联凭证功能" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[disposerActionEnum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="disposerActionEnum" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[disposerActionEnum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[paymentBillInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="paymentBillInfo" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[dispose].parameters.parameter[paymentBillInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取旧的组织关系" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].parameters.parameter[treeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="treeID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[getOldOrgRelation].parameters.parameter[treeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导入集团模版科目映射关系" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].parameters.parameter[company].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.finance.app.NewOldRelationFacade].methods.method[importGroupAccountRelation].parameters.parameter[company].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

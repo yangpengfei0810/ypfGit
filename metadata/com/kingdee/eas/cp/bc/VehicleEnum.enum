@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.cp.bc</package>
+    <name>VehicleEnum</name>
+    <alias>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].description</description>
+    <userDefined>false</userDefined>
+    <className>com.kingdee.eas.cp.bc.VehicleEnum</className>
+    <enumDataType>INTEGER</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>AIRPLANE</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[AIRPLANE].alias</alias>
+            <userDefined>false</userDefined>
+            <value>10</value>
+        </enumValue>
+        <enumValue>
+            <name>TRAIN</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[TRAIN].alias</alias>
+            <userDefined>false</userDefined>
+            <value>20</value>
+        </enumValue>
+        <enumValue>
+            <name>SHIP</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[SHIP].alias</alias>
+            <userDefined>false</userDefined>
+            <value>30</value>
+        </enumValue>
+        <enumValue>
+            <name>BUSSES</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[BUSSES].alias</alias>
+            <userDefined>false</userDefined>
+            <value>40</value>
+        </enumValue>
+        <enumValue>
+            <name>HighSpeedTrain</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[HighSpeedTrain].alias</alias>
+            <userDefined>true</userDefined>
+            <value>6</value>
+        </enumValue>
+        <enumValue>
+            <name>OTHER</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[OTHER].alias</alias>
+            <userDefined>false</userDefined>
+            <value>50</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].alias">
+            <lang locale="zh_CN" value="交通工具" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交通工具" />
+            <lang locale="zh_TW" value="交通工具" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].description">
+            <lang locale="zh_CN" value="交通工具" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交通工具" />
+            <lang locale="zh_TW" value="交通工具" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[AIRPLANE].alias">
+            <lang locale="zh_CN" value="飞机" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="飛機" />
+            <lang locale="zh_TW" value="飛機" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[BUSSES].alias">
+            <lang locale="zh_CN" value="汽车" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="汽車" />
+            <lang locale="zh_TW" value="汽車" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[HighSpeedTrain].alias">
+            <lang locale="zh_CN" value="高铁" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="高鐵" />
+            <lang locale="zh_TW" value="高鐵" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[OTHER].alias">
+            <lang locale="zh_CN" value="其它" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="其他" />
+            <lang locale="zh_TW" value="其他" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[SHIP].alias">
+            <lang locale="zh_CN" value="轮船" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="輪船" />
+            <lang locale="zh_TW" value="輪船" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.VehicleEnum].enumValues.enumValue[TRAIN].alias">
+            <lang locale="zh_CN" value="火车" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="火車" />
+            <lang locale="zh_TW" value="火車" />
+        </rs>
+    </resource>
+</bizEnum>
+

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>ContactOccurDateFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>F1E998CB</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.aimcost.ContactOccurDateFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getDate</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].description</description>
+            <innerID>927c2d5e-9e45-4fc5-8cb0-7f201e287d3e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.List</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+        <method>
+            <name>getProductType</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].description</description>
+            <innerID>c922ccad-20b8-4eaa-a7f9-eb9986435ac6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.List</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+        <method>
+            <name>getAimAndHappenedData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].description</description>
+            <innerID>f7775754-1a0e-4295-9bfe-7d42bc2dd169</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+        <method>
+            <name>getContractData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].description</description>
+            <innerID>c62ad04a-de60-49a8-a35d-65b9f101434d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.List</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+        <method>
+            <name>getDymData</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].description</description>
+            <innerID>cc703262-9740-4177-99e6-ee9be2236178</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.List</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+        <method>
+            <name>getAimCost</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].description</description>
+            <innerID>16b60ef3-e432-44dd-af2a-b6a48888edff</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getHappenedCost</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].description</description>
+            <innerID>384154c6-68bc-4663-aeba-7abb4a49a19a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectID</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].parameters.parameter[projectID].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].parameters.parameter[projectID].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].alias">
+            <lang locale="zh_CN" value="合约待发生拆分" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合約待發生拆分" />
+            <lang locale="zh_TW" value="合約待發生拆分" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].extendedProperty.controllerBeanEx">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacadeControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacadeControllerBeanEx" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacadeControllerBeanEx" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].alias">
+            <lang locale="zh_CN" value="获取科目对应产品类型的数据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取科目對應產品類型的數據" />
+            <lang locale="zh_TW" value="獲取科目對應產品類型的數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="工程ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程ID" />
+            <lang locale="zh_TW" value="工程ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimAndHappenedData].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].alias">
+            <lang locale="zh_CN" value="获取目标成本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取目標成本" />
+            <lang locale="zh_TW" value="獲取目標成本" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="工程项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程項目ID" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getAimCost].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].alias">
+            <lang locale="zh_CN" value="获取框架合约数据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取框架合約數據" />
+            <lang locale="zh_TW" value="獲取框架合約數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getContractData].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].alias">
+            <lang locale="zh_CN" value="获得数据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲得數據" />
+            <lang locale="zh_TW" value="獲得數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDate].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].alias">
+            <lang locale="zh_CN" value="或得动态明细表数据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="或得動態明細表數據" />
+            <lang locale="zh_TW" value="或得動態明細表數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getDymData].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].alias">
+            <lang locale="zh_CN" value="获取已发生成本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲取已發生成本" />
+            <lang locale="zh_TW" value="獲取已發生成本" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="工程项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程項目ID" />
+            <lang locale="zh_TW" value="工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getHappenedCost].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].alias">
+            <lang locale="zh_CN" value="获得数据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="獲得數據" />
+            <lang locale="zh_TW" value="獲得數據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].parameters.parameter[projectID].alias">
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ContactOccurDateFacade].methods.method[getProductType].parameters.parameter[projectID].description">
+            <lang locale="zh_CN" value="项目ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目ID" />
+            <lang locale="zh_TW" value="項目ID" />
+        </rs>
+    </resource>
+</facade>
+

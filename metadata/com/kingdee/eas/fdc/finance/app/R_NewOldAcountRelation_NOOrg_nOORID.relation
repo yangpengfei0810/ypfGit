@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance.app</package>
+    <name>R_NewOldAcountRelation_NOOrg_nOORID</name>
+    <alias>relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAcountRelation_NOOrg_nOORID].alias</alias>
+    <description>relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAcountRelation_NOOrg_nOORID].description</description>
+    <userDefined>true</userDefined>
+    <type>Composition</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+        <key name="name" value="NewOldAccountRelation" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+        <key name="name" value="NewOldOrgRelation" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAcountRelation_NOOrg_nOORID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAcountRelation_NOOrg_nOORID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAcountRelation_NOOrg_nOORID].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</relationship>
+

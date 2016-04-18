@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.wslog</package>
+    <name>T_WSL_WSLog</name>
+    <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FSourceBillID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>50</length>
+            <scale>0</scale>
+            <precision>50</precision>
+        </column>
+        <column>
+            <name>FSourceBillType</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillType].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>50</length>
+            <scale>0</scale>
+            <precision>50</precision>
+        </column>
+        <column>
+            <name>FLogTitle</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogTitle].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogTitle].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FLogDetail</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogDetail].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogDetail].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>2000</length>
+            <scale>0</scale>
+            <precision>2000</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCreateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FUrl</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FUrl].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FUrl].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>500</length>
+            <scale>0</scale>
+            <precision>500</precision>
+        </column>
+        <column>
+            <name>FState</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FState].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FState].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FIsClosed</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FIsClosed].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FIsClosed].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>50</length>
+            <scale>0</scale>
+            <precision>50</precision>
+        </column>
+        <column>
+            <name>FInParam</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FInParam].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FInParam].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>500</length>
+            <scale>0</scale>
+            <precision>500</precision>
+        </column>
+        <column>
+            <name>FCallType</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCallType].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCallType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>10</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>FRemark</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FRemark].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FRemark].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_WSLog</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="webservice日志" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCallType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="调用类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCallType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发送；回写" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FCreateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FInParam].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="入参" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FInParam].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FIsClosed].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否关闭" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FIsClosed].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否关闭：问题处理完后标志是否处理了" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogDetail].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="log明细" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogDetail].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="log明细" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogTitle].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="log标题" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FLogTitle].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="log标题" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FRemark].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FRemark].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="源单据id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="源单据id" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="源单据类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FSourceBillType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="源单据类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FState].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FState].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FUrl].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="url链接" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].columns.column[FUrl].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="url链接" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.wslog.T_WSL_WSLog].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

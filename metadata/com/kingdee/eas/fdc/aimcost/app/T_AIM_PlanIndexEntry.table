@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>T_AIM_PlanIndexEntry</name>
+    <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FIsProduct</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsProduct].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsProduct].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FContainArea</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FContainArea].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FContainArea].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FCubageRate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FCubageRate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FCubageRate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FBuildArea</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FBuildArea].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FBuildArea].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FSellArea</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FSellArea].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FSellArea].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FProductRate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductRate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductRate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FUnitArea</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnitArea].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnitArea].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FUnits</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnits].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnits].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FDoors</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDoors].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDoors].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>10</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FType</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FType].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FType].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>FIndex</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIndex].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIndex].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FProductID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FParentID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FIsSplit</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsSplit].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsSplit].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>1</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FIsHasPropertyRight</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsHasPropertyRight].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsHasPropertyRight].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FDesc</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDesc].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDesc].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FConstructArea</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FConstructArea].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FConstructArea].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FElevators</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FElevators].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FElevators].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FFloors</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloors].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloors].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FFloorHeight</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloorHeight].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloorHeight].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>13</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_PlanIndexEntry</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_AIM_PlanIERdct</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="T_FDC_ProductType" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FProductID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_AIM_PlanIEArnt</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+                <key name="name" value="T_AIM_PlanIndex" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FParentID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FBuildArea].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="建筑面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FBuildArea].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="建筑面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FConstructArea].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际建造面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FConstructArea].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目中各产品类型“实际建造面积”，计量单位为平方米。该项为开发技术指标" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FContainArea].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="占地面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FContainArea].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="占地面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FCubageRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="容积率或车位数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FCubageRate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="容积率或车位数 在停车中它做为车位数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDesc].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDesc].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDoors].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="户数 " />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FDoors].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="户数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FElevators].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电梯数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FElevators].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目中各产品类型对应的电梯数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloorHeight].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="层高" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloorHeight].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目中各产品类型对应的层高，计量单位为米" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloors].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="层数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FFloors].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目中各产品类型对应的楼层数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIndex].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="索引" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIndex].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="索引，用于排序" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsHasPropertyRight].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否有产权" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsHasPropertyRight].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsProduct].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否是产品类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsProduct].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否是产品类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsSplit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否分摊" />
+            <lang locale="zh_TW" value="是否分攤" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FIsSplit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产品是否参与分摊" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产品名称" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产品名称，用于存储手工录入的产品名称" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FParentID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FParentID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产品类型，来自于成本系统" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductRate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产品比例" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FProductRate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="产品比例" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FSellArea].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="可售面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FSellArea].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="可售面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="1、住宅、2公共配套建筑、3停车" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnitArea].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="平均每户面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnitArea].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="平均每户面积" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnits].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单元数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].columns.column[FUnits].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单元数" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.aimcost.app.T_AIM_PlanIndexEntry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="规则指标分录" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

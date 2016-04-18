@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.base.attachment</package>
+    <name>T_BAS_BoAttchAsso</name>
+    <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].alias</alias>
+    <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FBoID</name>
+            <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FBoID].alias</alias>
+            <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FBoID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FAssoType</name>
+            <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoType].alias</alias>
+            <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoType].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FAttachmentID</name>
+            <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAttachmentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAttachmentID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAssoBusObjType</name>
+            <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoBusObjType].alias</alias>
+            <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoBusObjType].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>CFSourceBillID</name>
+            <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSourceBillID].alias</alias>
+            <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSourceBillID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>50</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFSaveTime</name>
+            <alias>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSaveTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSaveTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>20</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_BoAttchAsso</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>FK_AT_BoAATxmnt</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.attachment" />
+                <key name="name" value="T_BAS_Attachment" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FAttachmentID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSaveTime].alias">
+            <lang locale="zh_CN" value="保存时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="保存時間" />
+            <lang locale="zh_TW" value="保存時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSaveTime].description">
+            <lang locale="zh_CN" value="保存时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="保存時間" />
+            <lang locale="zh_TW" value="保存時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSourceBillID].alias">
+            <lang locale="zh_CN" value="源单据id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="源單據id" />
+            <lang locale="zh_TW" value="源單據id" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[CFSourceBillID].description">
+            <lang locale="zh_CN" value="源单据id" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="源單據id" />
+            <lang locale="zh_TW" value="源單據id" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoBusObjType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoBusObjType].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAssoType].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAttachmentID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FAttachmentID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FBoID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FBoID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].columns.column[FID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.base.attachment.T_BAS_BoAttchAsso].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

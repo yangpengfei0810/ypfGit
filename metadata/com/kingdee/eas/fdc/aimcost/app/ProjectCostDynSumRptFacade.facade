@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>ProjectCostDynSumRptFacade</name>
+    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].alias</alias>
+    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>6134D46F</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.aimcost.ProjectCostDynSumRptFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getProject</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].description</description>
+            <innerID>43098ec7-59aa-4cc4-8dd3-7c29b48da77d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.jdbc.rowset.IRowSet</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>curOrgUnitLongNumber</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].parameters.parameter[curOrgUnitLongNumber].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].parameters.parameter[curOrgUnitLongNumber].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getAimCost</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].description</description>
+            <innerID>2820aa2a-61ea-4557-82e8-b894d93d7b25</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectIDs</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].parameters.parameter[projectIDs].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].parameters.parameter[projectIDs].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.Set</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getNewDynCost</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].description</description>
+            <innerID>cb2e5bbd-a483-4887-b504-401087325d3d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectIDs</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].parameters.parameter[projectIDs].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].parameters.parameter[projectIDs].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.Set</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getMarketingAimCost</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].description</description>
+            <innerID>dc6ed88e-15ba-4845-9fe5-eed5e60d8af0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectIDs</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].parameters.parameter[projectIDs].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].parameters.parameter[projectIDs].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.Set</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getMarketingNewDynCost</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].alias</alias>
+            <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].description</description>
+            <innerID>875d8b20-0b41-4093-b3fb-c3d883bd6445</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>java.util.Map</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>projectIDs</name>
+                    <alias>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].parameters.parameter[projectIDs].alias</alias>
+                    <description>facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].parameters.parameter[projectIDs].description</description>
+                    <direction>in</direction>
+                    <dataType>java.util.Set</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目全成本动态汇总表" />
+            <lang locale="zh_TW" value="項目全成本動態匯總表" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].extendedProperty.controllerBeanEx">
+            <lang locale="en_US" value="com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacadeControllerBeanEx" />
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacadeControllerBeanEx" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacadeControllerBeanEx" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取目标成本" />
+            <lang locale="zh_TW" value="獲取目標成本" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].parameters.parameter[projectIDs].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织下所有工程项目ID" />
+            <lang locale="zh_TW" value="當前組織下所有工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getAimCost].parameters.parameter[projectIDs].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取营销费用目标成本" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取营销费用目标成本" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].parameters.parameter[projectIDs].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织下所有工程项目ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingAimCost].parameters.parameter[projectIDs].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取营销费用最新动态成本" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取营销费用最新动态成本" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].parameters.parameter[projectIDs].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织下所有工程项目ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getMarketingNewDynCost].parameters.parameter[projectIDs].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="获取最新动态成本" />
+            <lang locale="zh_TW" value="獲取最新動態成本" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].parameters.parameter[projectIDs].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织下所有工程项目ID" />
+            <lang locale="zh_TW" value="當前組織下所有工程項目ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getNewDynCost].parameters.parameter[projectIDs].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="取当前组织下的项目" />
+            <lang locale="zh_TW" value="取當前組織下的項目" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].parameters.parameter[curOrgUnitLongNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="当前组织的长编码" />
+            <lang locale="zh_TW" value="當前組織的長編碼" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.fdc.aimcost.app.ProjectCostDynSumRptFacade].methods.method[getProject].parameters.parameter[curOrgUnitLongNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

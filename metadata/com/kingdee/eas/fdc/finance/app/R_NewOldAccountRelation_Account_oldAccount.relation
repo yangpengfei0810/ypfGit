@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance.app</package>
+    <name>R_NewOldAccountRelation_Account_oldAccount</name>
+    <alias>relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAccountRelation_Account_oldAccount].alias</alias>
+    <description>relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAccountRelation_Account_oldAccount].description</description>
+    <userDefined>true</userDefined>
+    <type>Association</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.fdc.finance.app" />
+        <key name="name" value="NewOldAccountRelation" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+        <key name="name" value="CostAccount" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAccountRelation_Account_oldAccount].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新旧帐套科目映射关系表—旧帐套成本科目" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAccountRelation_Account_oldAccount].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="新旧帐套科目映射关系表—旧帐套成本科目" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.finance.app.R_NewOldAccountRelation_Account_oldAccount].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</relationship>
+

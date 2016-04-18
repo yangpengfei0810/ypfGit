@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.finance.app</package>
+    <name>CT_FNC_OtherPayment</name>
+    <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK>com.kingdee.eas.fdc.finance.OtherPayment</bizUnitPK>
+    <columns>
+        <column>
+            <name>FFivouchered</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FFivouchered].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FFivouchered].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>false</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>CFOrganizeID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOrganizeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOrganizeID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFCurProjectID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurProjectID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurProjectID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFWithMSectorID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFWithMSectorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFWithMSectorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFApplyPeriodID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyPeriodID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyPeriodID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPaymentDate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>CFPayeeID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayeeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayeeID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFReceiptBank</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptBank].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptBank].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>CFPayTypeID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayTypeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayTypeID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFRealityPayeeID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRealityPayeeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRealityPayeeID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFReceiptNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>CFApplyAMT</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMT].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMT].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFApplyAMTHC</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMTHC].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMTHC].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFCurrencyID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurrencyID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurrencyID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFParities</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFParities].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFParities].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFInvoiceNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>CFInvoiceAMT</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceAMT].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceAMT].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFRemark</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRemark].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRemark].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>CFPaymentProportion</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentProportion].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentProportion].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFCompletedQuantities</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCompletedQuantities].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCompletedQuantities].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>10</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>CFContractID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFContractID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFContractID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPayRequestID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayRequestID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayRequestID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>CFBillstates</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillstates].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillstates].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>SAVED</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>CFAuditDate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFAuditDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFAuditDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>CFIsOAAudit</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFIsOAAudit].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFIsOAAudit].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>是否走OA审批</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>CFBillTempletID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillTempletID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillTempletID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>CFOABillID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOABillID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOABillID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>100</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBizDate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FBizDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FBizDate].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FHandlerID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHandlerID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHandlerID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FDescription].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FHasEffected</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHasEffected].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHasEffected].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FAuditorID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FAuditorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FAuditorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSourceBillID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceBillID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceBillID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSourceFunction</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceFunction].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceFunction].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreatorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FControlUnitID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_OtherPayment</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPRtr</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPAstUU</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPCU</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_CtrlUnit" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPAndlr</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FHandlerID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPUdtr</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FAuditorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPRgnz</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Admin" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFOrganizeID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPUrP</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="T_FDC_CurProject" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFCurProjectID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPIMS</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Admin" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFWithMSectorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPPlP</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_Period" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFApplyPeriodID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPAyee</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="T_BD_Supplier" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFPayeeID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPAyT</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="T_FDC_PaymentType" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFPayTypeID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPEltP</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="T_BD_Supplier" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFRealityPayeeID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPUrns</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_Currency" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFCurrencyID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPOntrc</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.contract.app" />
+                <key name="name" value="T_CON_ContractBill" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFContractID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_FNC_FNCOPAyR</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.contract.app" />
+                <key name="name" value="T_CON_PayRequestBill" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFPayRequestID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它付款单" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMTHC].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请金额（本币）" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMTHC].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请金额（本币）" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMT].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请金额（原币）" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyAMT].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请金额（原币）" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyPeriodID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请期间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFApplyPeriodID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="申请期间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFAuditDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFAuditDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核日期" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillTempletID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="OA流程模版ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillTempletID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="OA流程模版ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillstates].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFBillstates].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCompletedQuantities].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本期完工工程量" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCompletedQuantities].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本期完工工程量" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFContractID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFContractID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="合同" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurProjectID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工程项目" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurProjectID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="工程项目" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurrencyID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFCurrencyID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="币别" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceAMT].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发票金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceAMT].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发票金额" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发票号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFInvoiceNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发票号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFIsOAAudit].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否走OA审批" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFIsOAAudit].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否走OA审批" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据名称" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据名称" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOABillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="OA单据ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOABillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="OA单据ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOrganizeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFOrganizeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组织" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFParities].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFParities].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="汇率" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayRequestID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款申请单" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayRequestID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款申请单" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayTypeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayTypeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayeeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款单位全称" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPayeeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款单位全称" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款日期" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="付款日期" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentProportion].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="进度款付款比例" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFPaymentProportion].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="进度款付款比例" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRealityPayeeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际收款单位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRealityPayeeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="实际收款单位" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptBank].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款银行" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptBank].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款银行" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款帐号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFReceiptNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="收款帐号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRemark].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFRemark].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFWithMSectorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用款部门" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[CFWithMSectorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用款部门" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FAuditorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FAuditorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FBizDate].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FBizDate].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FControlUnitID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FControlUnitID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreatorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FCreatorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FDescription].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FFivouchered].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FFivouchered].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHandlerID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHandlerID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="经手人" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHasEffected].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否曾经生效" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FHasEffected].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否曾经生效" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateUserID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FLastUpdateUserID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceBillID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原始单据ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceBillID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="原始单据ID" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceFunction].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源功能" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].columns.column[FSourceFunction].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="来源功能" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.finance.app.CT_FNC_OtherPayment].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其它付款单" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+        </rs>
+    </resource>
+</dataTable>
+

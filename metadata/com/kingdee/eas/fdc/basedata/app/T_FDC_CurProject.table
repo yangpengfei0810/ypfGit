@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.basedata.app</package>
+    <name>T_FDC_CurProject</name>
+    <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK>com.kingdee.eas.fdc.basedata.CurProject</bizUnitPK>
+    <columns>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreatorID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FControlUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDescription].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FSimpleName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSimpleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSimpleName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FIsLeaf</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsLeaf].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsLeaf].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FLevel</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLevel].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLevel].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FLongNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLongNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLongNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FDisplayName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDisplayName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDisplayName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FSortNo</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSortNo].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSortNo].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FStartDate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FStartDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FStartDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FFullOrgUnit</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FFullOrgUnit].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FFullOrgUnit].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLandDeveloper</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLandDeveloper].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLandDeveloper].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FParentID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FIsEnabled</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsEnabled].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsEnabled].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>1</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FProjectStatusID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectStatusID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectStatusID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FProjectPeriod</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectPeriod].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectPeriod].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FProjectTypeID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectTypeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectTypeID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCostOrgID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostOrgID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostOrgID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FBdProjectID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FBdProjectID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FBdProjectID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCodingNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCodingNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCodingNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCostCenterId</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostCenterId].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostCenterId].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FIsDevPrj</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsDevPrj].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsDevPrj].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>1</defaultValue>
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FProjectAddress</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectAddress].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectAddress].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFPrjMappingName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[CFPrjMappingName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[CFPrjMappingName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_FDC_CurProject</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>FK_FDC_CurPUllOU</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_BaseUnit" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FFullOrgUnit" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_FDC_CurPAndD</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="T_FDC_LandDeveloper" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLandDeveloper" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_FDC_CurProjAr</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="T_FDC_CurProject" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FParentID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_FDC_CurProjPrS</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="T_FDC_ProjectStatus" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FProjectStatusID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_FDC_ProjectType</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="T_FDC_ProjectType" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FProjectTypeID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].alias">
+            <lang locale="zh_CN" value="当前工程项目表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前工程項目表" />
+            <lang locale="zh_TW" value="當前工程項目表" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[CFPrjMappingName].alias">
+            <lang locale="zh_CN" value="工程映射名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程映射名稱" />
+            <lang locale="zh_TW" value="工程映射名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[CFPrjMappingName].description">
+            <lang locale="zh_CN" value="工程映射名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="工程映射名稱" />
+            <lang locale="zh_TW" value="工程映射名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FBdProjectID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FBdProjectID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCodingNumber].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCodingNumber].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FControlUnitID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FControlUnitID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostCenterId].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostCenterId].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostOrgID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCostOrgID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreateTime].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreateTime].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreatorID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FCreatorID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDescription].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDescription].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDisplayName].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FDisplayName].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FFullOrgUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FFullOrgUnit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsDevPrj].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsDevPrj].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsEnabled].alias">
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsEnabled].description">
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsLeaf].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FIsLeaf].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLandDeveloper].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLandDeveloper].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateTime].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateTime].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateUserID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLastUpdateUserID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLevel].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLevel].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLongNumber].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FLongNumber].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FName].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FName].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FNumber].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FNumber].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FParentID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FParentID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectAddress].alias">
+            <lang locale="zh_CN" value="项目地址" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目地址" />
+            <lang locale="zh_TW" value="項目地址" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectAddress].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectPeriod].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectPeriod].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectStatusID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectStatusID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectTypeID].alias">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FProjectTypeID].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSimpleName].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSimpleName].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSortNo].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FSortNo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FStartDate].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].columns.column[FStartDate].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.basedata.app.T_FDC_CurProject].description">
+            <lang locale="zh_CN" value="当前工程项目表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="當前工程項目表" />
+            <lang locale="zh_TW" value="當前工程項目表" />
+        </rs>
+    </resource>
+</dataTable>
+

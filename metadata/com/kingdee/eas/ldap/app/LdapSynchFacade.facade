@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.ldap.app</package>
+    <name>LdapSynchFacade</name>
+    <alias>facade[com.kingdee.eas.ldap.app.LdapSynchFacade].alias</alias>
+    <description>facade[com.kingdee.eas.ldap.app.LdapSynchFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>525C5791</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.ldap.LdapSynchFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.ldap.app.LdapSynchFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>synch</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.ldap.app.LdapSynchFacade].methods.method[synch].alias</alias>
+            <description>facade[com.kingdee.eas.ldap.app.LdapSynchFacade].methods.method[synch].description</description>
+            <innerID>90fce6f8-ba1b-4aee-b24d-d94e8c1297b5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.ldap.app.LdapSynchFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_TW" value="LdapSynchFacade" />
+            <lang locale="zh_HK" value="LdapSynchFacade" />
+            <lang locale="zh_CN" value="LdapSynchFacade" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.ldap.app.LdapSynchFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_CN" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.ldap.app.LdapSynchFacade].methods.method[synch].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_TW" value="synch" />
+            <lang locale="zh_HK" value="synch" />
+            <lang locale="zh_CN" value="synch" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.ldap.app.LdapSynchFacade].methods.method[synch].description">
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+        </rs>
+    </resource>
+</facade>
+

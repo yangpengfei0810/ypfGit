@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permission xmlns="com.kingdee.bos.metadata">
+    <package />
+    <name>fdc_fi_NORelation</name>
+    <alias>permission[.fdc_fi_NORelation].alias</alias>
+    <description>permission[.fdc_fi_NORelation].description</description>
+    <userDefined>true</userDefined>
+    <permissionItems>
+        <permissionItem>
+            <innerID>a814ae6b-980b-4f2f-b6a1-27eb3910ad41PERMITEM</innerID>
+            <name>noor_view</name>
+            <alias>permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].alias</alias>
+            <description>permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].description</description>
+            <type>OTHER</type>
+            <groupName>EAS系统.199房地产.15付款管理.20付款管理.100新旧帐套组织映射关系表</groupName>
+            <group>permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].group</group>
+            <userDefined>true</userDefined>
+            <entityObjectRef>
+                <entityType>8680CCEA</entityType>
+                <userDefined>true</userDefined>
+                <metadataRef>
+                    <package>com.kingdee.eas.fdc.finance.app</package>
+                    <name>NewOldOrgRelation</name>
+                    <bosType>enty</bosType>
+                </metadataRef>
+            </entityObjectRef>
+            <bizRefs>
+                <bizRef>
+                    <id>3d54edf4-d955-4964-961e-9de01ba9a093</id>
+                    <userDefined>true</userDefined>
+                    <metadataRef>
+                        <package>com.kingdee.eas.fdc.finance.client</package>
+                        <name>NewOldOrgRelationUI</name>
+                        <bosType>uioj</bosType>
+                    </metadataRef>
+                    <bizPropertys>
+                        <bizProperty>
+                            <property>ActionOnLoad</property>
+                            <userDefined>true</userDefined>
+                        </bizProperty>
+                        <bizProperty>
+                            <property>ActionSave</property>
+                            <userDefined>true</userDefined>
+                        </bizProperty>
+                        <bizProperty>
+                            <property>ActionSubmit</property>
+                            <userDefined>true</userDefined>
+                        </bizProperty>
+                    </bizPropertys>
+                </bizRef>
+            </bizRefs>
+        </permissionItem>
+    </permissionItems>
+    <dependences>
+        <dependence>
+            <id>a814ae6b-980b-4f2f-b6a1-27eb3910ad41PERMITEM</id>
+            <referedItem>
+                <key name="innerID" value="a814ae6b-980b-4f2f-b6a1-27eb3910ad41PERMITEM" />
+            </referedItem>
+        </dependence>
+    </dependences>
+    <resource>
+        <rs key="permission[.fdc_fi_NORelation].alias">
+            <lang locale="zh_CN" value="新旧帐套关系权限" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="新舊帳套關係許可權" />
+            <lang locale="zh_TW" value="新舊帳套關係許可權" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].dependences.dependenceextendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].alias">
+            <lang locale="zh_CN" value="查看修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查看修改" />
+            <lang locale="zh_TW" value="查看修改" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].description">
+            <lang locale="zh_CN" value="查看修改" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查看修改" />
+            <lang locale="zh_TW" value="查看修改" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].extendedProperty.orgRelation">
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+            <lang locale="en_US" value="Company" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].extendedProperty.permItemType">
+            <lang locale="zh_CN" value="20" />
+            <lang locale="zh_TW" value="20" />
+            <lang locale="en_US" value="20" />
+        </rs>
+        <rs key="permission[.fdc_fi_NORelation].permissionItems.permissionItem[noor_view].group">
+            <lang locale="zh_CN" value="EAS系统.房地产.付款管理.付款管理.新旧帐套组织映射关系表" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="EAS系統.房地產.付款管理.付款管理.新舊帳套組織映射關係表" />
+            <lang locale="zh_TW" value="EAS系統.房地產.付款管理.付款管理.新舊帳套組織映射關係表" />
+        </rs>
+    </resource>
+</permission>
+

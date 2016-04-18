@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.aimcost.app</package>
+    <name>R_PublicToSplit_PublicToSplitEntry_entrys</name>
+    <alias>relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicToSplit_PublicToSplitEntry_entrys].alias</alias>
+    <description>relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicToSplit_PublicToSplitEntry_entrys].description</description>
+    <userDefined>true</userDefined>
+    <type>Composition</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..*</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+        <key name="name" value="PublicToSplit" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fdc.aimcost.app" />
+        <key name="name" value="PublicToSplitEntry" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicToSplit_PublicToSplitEntry_entrys].alias">
+            <lang locale="zh_CN" value="公共配套待发生分摊--分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="公共配套待發生分攤--分錄" />
+            <lang locale="zh_TW" value="公共配套待發生分攤--分錄" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicToSplit_PublicToSplitEntry_entrys].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.aimcost.app.R_PublicToSplit_PublicToSplitEntry_entrys].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</relationship>
+

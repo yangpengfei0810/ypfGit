@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.cp.bc</package>
+    <name>EducateEnum</name>
+    <alias>bizEnum[com.kingdee.eas.cp.bc.EducateEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.cp.bc.EducateEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.cp.bc.EducateEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>EDUCATE</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.EducateEnum].enumValues.enumValue[EDUCATE].alias</alias>
+            <userDefined>true</userDefined>
+            <value>0</value>
+        </enumValue>
+        <enumValue>
+            <name>UNEDUCATE</name>
+            <alias>bizEnum[com.kingdee.eas.cp.bc.EducateEnum].enumValues.enumValue[UNEDUCATE].alias</alias>
+            <userDefined>true</userDefined>
+            <value>1</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.EducateEnum].alias">
+            <lang locale="zh_CN" value="是否培训" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否培訓" />
+            <lang locale="zh_TW" value="是否培訓" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.EducateEnum].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.EducateEnum].enumValues.enumValue[EDUCATE].alias">
+            <lang locale="zh_CN" value="培训" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="培訓" />
+            <lang locale="zh_TW" value="培訓" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.EducateEnum].enumValues.enumValue[UNEDUCATE].alias">
+            <lang locale="zh_CN" value="非培训" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="非培訓" />
+            <lang locale="zh_TW" value="非培訓" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.cp.bc.EducateEnum].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+
