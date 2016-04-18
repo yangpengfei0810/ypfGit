@@ -113,6 +113,8 @@ public class ContractBillEditUIPIEx extends ContractBillEditUI {
 			splitAmount = editData.getSplitAmt();
 		}
 		
+		
+		//jjjjjjjjjjjjjjjjjjjjjjjjj
 		//mod by ypf on 20121113 刷新listui,其他页面不刷新
 		if(this.getUIContext().get("isRefresh")!=null && this.getUIContext().get("isRefresh").equals("true"))
 		{
